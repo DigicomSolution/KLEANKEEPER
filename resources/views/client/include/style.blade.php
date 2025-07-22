@@ -1,0 +1,26 @@
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/lightslider.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/default.css')}}">
+    <link rel="icon" href="{{asset('assets/images/logo.png')}}" type="images" sizes="16x16">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://kit.fontawesome.com/095cec0569.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{asset('assets/css/new.css')}}">
+    <link rel="stylesheet" href="{{asset('input/css/intlTelInput.min.css')}}">
+    <script type="text/javascript" src="{{asset('input/js/intlTelInput.min.js')}}"></script>
+    <style>
+        .iti {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+        .error{
+            color: red;
+        }
+    </style>
