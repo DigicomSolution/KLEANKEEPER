@@ -38,6 +38,7 @@ class BlogController extends Controller
                 $blog = Page::where('slug','blogs')->first();
                 $blogs = Page::where('related_service_id',$service->id)->where('type','blog')->paginate();
                 $title = 'Blogs on '.$service->name;
+                $blog->browser_title = $title;
                 return view('client.blog.index',compact('blogs','blog','title','categories'));
             }else{
                 $blog = Page::where('slug','blogs')->first();
@@ -48,7 +49,6 @@ class BlogController extends Controller
         }
 
         $popular_blogs = Page::where('type','blog')->orderby('id','DESC')->limit(5)->get();
-
         return view('client.blog.details',compact('blog','categories','popular_blogs'));
     }
 
