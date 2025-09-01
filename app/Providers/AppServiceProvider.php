@@ -27,9 +27,9 @@ class AppServiceProvider extends ServiceProvider
         if (request()->getHost() && strpos(request()->getHost(), 'www.') === 0) {
             
         }else {
-            $nonWwwUrl = request()->getScheme() . '://' . substr(request()->getHost(), 4) . request()->getRequestUri();
+            $nonWwwUrl = request()->getScheme() . '://' . request()->getHost() . request()->getRequestUri();
             $nonWwwUrl = str_replace("https://", "https://www.", $nonWwwUrl);
-            dd($nonWwwUrl);
+            $nonWwwUrl = str_replace("http://", "https://www.", $nonWwwUrl);
             return redirect($nonWwwUrl);
             exit;
         }
