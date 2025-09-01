@@ -25,10 +25,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         if (request()->getHost() && strpos(request()->getHost(), 'www.') === 0) {
-            $nonWwwUrl = request()->getScheme() . '://' . substr(request()->getHost(), 4) . request()->getRequestUri();
-            $nonWwwUrl = str_replace("https://www.", "https://", $nonWwwUrl);
-            return redirect($nonWwwUrl);
-            exit;
+            
+        }else {
+            exit("hass");
         }
 
         Schema::defaultStringLength(191);
