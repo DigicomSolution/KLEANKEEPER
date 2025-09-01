@@ -26,7 +26,8 @@ class AppServiceProvider extends ServiceProvider
     {
         if (request()->getHost() && strpos(request()->getHost(), 'www.') === 0) {
             $nonWwwUrl = request()->getScheme() . '://' . substr(request()->getHost(), 4) . request()->getRequestUri();
-            return redirect('/dashboard');
+            dd("maintenanc mode");
+            return redirect($nonWwwUrl);
             exit;
         }
 
