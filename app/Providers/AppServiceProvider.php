@@ -24,6 +24,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if (request()->getHost() && strpos(request()->getHost(), 'www.') === 0) {
+            $nonWwwUrl = request()->getScheme() . '://' . substr(request()->getHost(), 4) . request()->getRequestUri();
+            return redirect('/dashboard');
+            exit;
+        }
+
         Schema::defaultStringLength(191);
         
  \URL::forceScheme('https');
