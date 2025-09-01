@@ -56,7 +56,7 @@
 
           <span class="heading__pre-title">Pricing</span>
 
-          <h3 class="heading__title">The <span class="color--green">Right Price</span> for you</h3>
+          <h1 class="heading__title">The <span class="color--green">Right Price</span> for you</h1>
 
           <span class="heading__layout">Pricing</span>
 

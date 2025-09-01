@@ -19,7 +19,7 @@
             <div class="carousel-item active">
                 <img src="{{Key::get('about-us-banner-image-id')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption  ">
-                    <h5>{{Key::get('about-us-banner-title')}}</h5>
+                    <h1>{{Key::get('about-us-banner-title')}}</h1>
                     <p>{{Key::get('about-us-banner-title-sub')}}</p>
                     <a href="{{Key::get('about-us-banner-cta-action')}}" class="btn  btn-with-out-form"  >{{Key::get('about-us-banner-cta-label')}}</a>
                 </div>
