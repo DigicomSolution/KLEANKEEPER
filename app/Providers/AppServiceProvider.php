@@ -30,7 +30,7 @@ class AppServiceProvider extends ServiceProvider
             $nonWwwUrl = request()->getScheme() . '://' . request()->getHost() . request()->getRequestUri();
             $nonWwwUrl = str_replace("https://", "https://www.", $nonWwwUrl);
             $nonWwwUrl = str_replace("http://", "https://www.", $nonWwwUrl);
-            return header("Location: https://www.kleankeepers.co.uk");
+            return header("Location: https://www.kleankeepers.co.uk".request()->getRequestUri());
             exit;
         }
 
