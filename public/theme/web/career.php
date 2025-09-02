@@ -44,7 +44,7 @@
             </div>
             <div class="col-md-7">
                 <div class="career-right">
-                    <img src="img/career-bnr.png" alt="">
+                    <img src="img/career-bnr.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
             </div>
             <div class="col-md-7">
                 <div class="company-staff">
-                    <img src="img/staffs.png" alt="">
+                    <img src="img/staffs.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
                 <a class="card-title">
                   <div class="icon-title">
                       <div class="co-icon">
-                          <img src="img/php.png" alt="">
+                          <img src="img/php.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                       </div>
                       <div class="co--title">
                           <h4>PHP Developer</h4>
@@ -138,7 +138,7 @@
                 <a class="card-title">
                   <div class="icon-title">
                       <div class="co-icon">
-                          <img src="img/php.png" alt="">
+                          <img src="img/php.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                       </div>
                       <div class="co--title">
                           <h4>PHP Developer</h4>
@@ -189,7 +189,7 @@
                 <a class="card-title">
                   <div class="icon-title">
                       <div class="co-icon">
-                          <img src="img/php.png" alt="">
+                          <img src="img/php.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                       </div>
                       <div class="co--title">
                           <h4>PHP Developer</h4>
@@ -259,7 +259,7 @@
             </div>
             <div class="col-md-4 p-0">
                 <div class="wo-right">
-                    <img src="img/why-one.png" alt="">
+                    <img src="img/why-one.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
             </div>
         </div>
@@ -272,7 +272,7 @@
                <!-- 1st -->
                 <div class="overlay-why-single">
                     <div class="beyou-icon">
-                        <img src="img/thumb-up.png" alt="">
+                        <img src="img/thumb-up.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="be-you">
                         <h2>Be You.</h2>
@@ -284,7 +284,7 @@
                 <!-- 2nd -->
                 <div class="overlay-why-single">
                     <div class="beyou-icon">
-                        <img src="img/thumb-up.png" alt="">
+                        <img src="img/thumb-up.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="be-you">
                         <h2>Be You.</h2>
@@ -296,7 +296,7 @@
                 <!-- 3rd -->
                 <div class="overlay-why-single">
                     <div class="beyou-icon">
-                        <img src="img/thumb-up.png" alt="">
+                        <img src="img/thumb-up.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="be-you">
                         <h2>Be You.</h2>

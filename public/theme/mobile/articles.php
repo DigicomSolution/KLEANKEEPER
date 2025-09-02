@@ -68,7 +68,7 @@
                             </div>
                             <div class="col-sm-4 col-4 align-self-end">
                                 <div class="ar-img">
-                                    <img src="img/covid.png" alt="">
+                                    <img src="img/covid.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
             <div class="col-md-12">
                 <div class="engage-with-us_m">
                     <div class="es-hd_m">
-                        <h2><img src="img/mail.png" alt=""> Engage <span>With Us.</span></h2>
+                        <h2><img src="img/mail.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}"> Engage <span>With Us.</span></h2>
                     </div>
                     <form>
                         <div class="form-group form-row">
@@ -150,7 +150,7 @@
     <div class="container">
         <div class="article-conversation">
             <div class="ac-icon">
-                <img src="img/mail.png" alt="">
+                <img src="img/mail.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
             </div>
             <div class="ac-text">
                 <h2>Join Conversation</h2>
@@ -171,7 +171,7 @@
                         <h3>Jobin Jose</h3>
                     </div>
                     <div class="pc--icon">
-                        <img src="img/mail.png" alt="">
+                        <img src="img/mail.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                 </div>
                 <div class="pc-comment">
@@ -184,7 +184,7 @@
                         <h3>Jobin Jose</h3>
                     </div>
                     <div class="pc--icon">
-                        <img src="img/mail.png" alt="">
+                        <img src="img/mail.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                 </div>
                 <div class="pc-comment">
@@ -197,7 +197,7 @@
                         <h3>Jobin Jose</h3>
                     </div>
                     <div class="pc--icon">
-                        <img src="img/mail.png" alt="">
+                        <img src="img/mail.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                 </div>
                 <div class="pc-comment">

@@ -49,7 +49,7 @@
            </div>
            <div class="col-md-8">
                 <div class="ot-photo">
-                    <img src="img/team-banner.png" alt="">
+                    <img src="img/team-banner.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
            </div>
        </div>
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                     <div class="sp-logos">
-                        <img src="img/spider-bg.png" alt="">
+                        <img src="img/spider-bg.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                 </div>
             </div>

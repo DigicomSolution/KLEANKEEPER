@@ -168,7 +168,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-9">
                     <div class="feature-item style-one text-center mt-30">
-                        <img src="{{Key::get('about-us-highlighted-1-image-id')}}" alt="" width="80px">
+                        <img src="{{Key::get('about-us-highlighted-1-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" width="80px">
                         <h4 class="title">{{Key::get('about-us-highlighted-1-label')}}</h4>
                         <p>
                             {{Key::get('about-us-highlighted-1-value')}}
@@ -177,7 +177,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-9">
                     <div class="feature-item style-one text-center mt-30 active">
-                        <img src="{{Key::get('about-us-highlighted-2-image-id')}}" alt="" width="80px">
+                        <img src="{{Key::get('about-us-highlighted-2-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" width="80px">
                         <h4 class="title">{{Key::get('about-us-highlighted-2-label')}}</h4>
                         <p>
                             {{Key::get('about-us-highlighted-2-value')}}
@@ -186,7 +186,7 @@
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="feature-item style-one text-center mt-30">
-                        <img src="{{Key::get('about-us-highlighted-3-image-id')}}" alt="" width="80px">
+                        <img src="{{Key::get('about-us-highlighted-3-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" width="80px">
                         <h4 class="title">{{Key::get('about-us-highlighted-3-label')}}</h4>
                         <p>
                             {{Key::get('about-us-highlighted-3-value')}}

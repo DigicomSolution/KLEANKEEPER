@@ -73,7 +73,7 @@
                 <div class="col-md-6">
                     <div class="socials">
                         <div class="ss-logo">
-                            <img src="img/logo-sw.png" alt="">
+                            <img src="img/logo-sw.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="ss-icons-social--footer">
                             <div class="ss-single">
@@ -108,11 +108,11 @@
                     <div class="dp-detail">
                         <div class="loc-phone">
                             <div class="location">
-                                <img src="img/loc-icon.png" alt="">
+                                <img src="img/loc-icon.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                                 <span>219, Mavelipuram Zone 2 Kakkanad, Kochi, Kerala 682030</span>
                             </div>
                             <div class="phone">
-                                <img src="img/call-icon.png" alt="">
+                                <img src="img/call-icon.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                                 <span>94955 59690</span>
                             </div>
                         </div>

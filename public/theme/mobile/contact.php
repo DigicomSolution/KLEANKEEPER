@@ -26,16 +26,16 @@
 <!-- contact -->
 <section class="contact-sec_m">
     <div class="con-left-img_m">
-        <img src="img/tree.png" alt="">
+        <img src="img/tree.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
     </div>
     <div class="con-rt-img_m">
-        <img src="img/window.png" alt="">
+        <img src="img/window.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
     </div>
     <div class="cloud-img_m">
-        <img src="img/cloud.png" alt="">
+        <img src="img/cloud.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
     </div>
     <div class="cloud-rt-img_m">
-        <img src="img/cloud.png" alt="">
+        <img src="img/cloud.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
     </div>
     <div class="container ct-container_m">
         <div class="row justify-content-center ct-row_m">
@@ -96,7 +96,7 @@
             <div class="col-md-12 col-sm-12">
                 <div class="sm-single_m bd-btm_m">
                     <div class="sm-icon_m">
-                        <img src="img/office.png" alt="">
+                        <img src="img/office.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="sm-details_m">
                         <h3>Office</h3>
@@ -107,7 +107,7 @@
             <div class="col-md-12 col-sm-12">
                  <div class="sm-single_m bd-btm_m">
                     <div class="sm-icon_m">
-                        <img src="img/call.png" alt="">
+                        <img src="img/call.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="sm-details_m">
                         <h3>Call</h3>
@@ -118,7 +118,7 @@
             <div class="col-md-12 col-sm-12">
                  <div class="sm-single_m">
                     <div class="sm-icon_m">
-                        <img src="img/mail.png" alt="">
+                        <img src="img/mail.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="sm-details_m">
                         <h3>Email</h3>

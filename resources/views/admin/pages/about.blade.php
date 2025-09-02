@@ -16,7 +16,7 @@
                         <a href="{{route('spiderworks.miniweb.media.popup', ['popup_type'=>'single_image', 'type'=>'Image', 'holder_attr'=>'1'])}}" class="miniweb-open-ajax-popup" title="Media Images" data-popup-size="large" id="image-holder-1">
 
                             @if(Key::get('site-about-image-id')!= 'NA')
-                                <img class="card-img-top padding-20" src="{{Key::get('site-about-image-id')}}" alt="" >
+                                <img class="card-img-top padding-20" src="{{Key::get('site-about-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" >
                             @else
                                 <img class="card-img-top padding-20" src="{{asset('add-image.png')}}" >
                             @endif

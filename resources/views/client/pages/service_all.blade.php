@@ -76,7 +76,7 @@
          <div class="row justify-content-center">
              <div class="col-lg-8">
                  <div class="section-title text-center">
-                     <!--   <img src="assets/images/item.png" alt="">   -->
+                     <!--   <img src="assets/images/item.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">   -->
                      <h1 class="title">{{Key::get('service-title')}}</h1>
                      <span>{!! Key::get('service-content') !!}</span>
                  </div>

@@ -16,7 +16,7 @@
                         <a href="{{route('spiderworks.miniweb.media.popup', ['popup_type'=>'single_image', 'type'=>'Image', 'holder_attr'=>'1'])}}" class="miniweb-open-ajax-popup" title="Media Images" data-popup-size="large" id="image-holder-1">
 
                             @if(Key::get('promo-bg-image-id')!= 'NA')
-                                <img class="card-img-top padding-20" src="{{Key::get('promo-bg-image-id')}}" alt="" >
+                                <img class="card-img-top padding-20" src="{{Key::get('promo-bg-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" >
                             @else
                                 <img class="card-img-top padding-20" src="{{asset('add-image.png')}}" >
                             @endif
@@ -38,7 +38,7 @@
                         <a href="{{route('spiderworks.miniweb.media.popup', ['popup_type'=>'single_image', 'type'=>'Image', 'holder_attr'=>'2'])}}" class="miniweb-open-ajax-popup" title="Media Images" data-popup-size="large" id="image-holder-2">
 
                             @if(Key::get('promo-image-image-id')!= 'NA')
-                                <img class="card-img-top padding-20" src="{{Key::get('promo-image-image-id')}}" alt="" >
+                                <img class="card-img-top padding-20" src="{{Key::get('promo-image-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" >
                             @else
                                 <img class="card-img-top padding-20" src="{{asset('add-image.png')}}" >
                             @endif
@@ -73,7 +73,7 @@
                         <a href="{{route('spiderworks.miniweb.media.popup', ['popup_type'=>'single_image', 'type'=>'Image', 'holder_attr'=>'3'])}}" class="miniweb-open-ajax-popup" title="Media Images" data-popup-size="large" id="image-holder-3">
 
                             @if(Key::get('play-store-button-image-id')!= 'NA')
-                                <img class="card-img-top padding-20" src="{{Key::get('play-store-button-image-id')}}" alt="" style="background: grey">
+                                <img class="card-img-top padding-20" src="{{Key::get('play-store-button-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" style="background: grey">
                             @else
                                 <img class="card-img-top padding-20" src="{{asset('add-image.png')}}" >
                             @endif
@@ -95,7 +95,7 @@
                         <a href="{{route('spiderworks.miniweb.media.popup', ['popup_type'=>'single_image', 'type'=>'Image', 'holder_attr'=>'4'])}}" class="miniweb-open-ajax-popup" title="Media Images" data-popup-size="large" id="image-holder-4">
 
                             @if(Key::get('app-store-button-image-id')!= 'NA')
-                                <img class="card-img-top padding-20" src="{{Key::get('app-store-button-image-id')}}" alt=""  style="background: grey">
+                                <img class="card-img-top padding-20" src="{{Key::get('app-store-button-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}"  style="background: grey">
                             @else
                                 <img class="card-img-top padding-20" src="{{asset('add-image.png')}}" >
                             @endif

@@ -30,7 +30,7 @@
             <div class="col-md-12 mt60 text-center">
                 <div class="about-banr-inner_m">
                     <div class="about-banner-img_m">
-                        <img src="img/about-banner.png" alt="">
+                        <img src="img/about-banner.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="about-bnr-hd_m bnr-hd_m animation-element">
                         <h1>Who Knows the</h1>
@@ -56,7 +56,7 @@
         <div class="row">
         <div class="col-md-12 col-lg-12 col-sm-12 col-12 text-center">
             <div class="dg-left_m">
-                <img src="img/about-exp.png" alt="">
+                <img src="img/about-exp.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
             </div>
         </div>
         <div class="col-md-12 col-lg-12 col-sm-12 col-12 align-self-center pt100px">
@@ -89,7 +89,7 @@
                         </a>
                     </div>
                     <div class="story-icon_m">
-                        <img src="img/abt-story.png" alt="">
+                        <img src="img/abt-story.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@
                                 <p>Need help with <span>Branding ?</span></p>
                             </div>
                             <div class="meet-brand_m  text-center">
-                               <img src="img/brand-aware.png" alt="">
+                               <img src="img/brand-aware.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                             </div>
                             <div class="meet-dec_m">
                                 <p>We pursue relationships based on transparency, persistence, mutual trust, and integrity with our employees, customers and other business partners.</p>
@@ -162,7 +162,7 @@
                                 <p>Need help with <span>Web Development?</span></p>
                             </div>
                             <div class="meet-brand_m text-center">
-                                <img src="img/abt-cl2.png" alt="">
+                                <img src="img/abt-cl2.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                             </div>
                             <div class="meet-dec_m">
                                 <p>We pursue relationships based on transparency, persistence, mutual trust, and integrity with our employees, customers and other business partners.</p>
@@ -214,7 +214,7 @@
                 <div class="row">
                     <div class="col-md-10 col-sm-10 col-12 align-self-center">
                         <div class="spinal-cord_m">
-                            <img src="img/tony-john.png" alt="">
+                            <img src="img/tony-john.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-12 align-self-center">
@@ -287,58 +287,58 @@
                 <div class="cl-inner_m">
                     <div class="cl-4th_m animation-element">
                         <div class="cl-single_m vofox">
-                            <img src="img/vofox.png" alt="">
+                            <img src="img/vofox.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m sib">
-                            <img src="img/sib.png" alt="">
+                            <img src="img/sib.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m sobha">
-                            <img src="img/sobha.png" alt="">
+                            <img src="img/sobha.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m msoft">
-                            <img src="img/ms.png" alt="">
+                            <img src="img/ms.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                     <div class="cl-4th_m animation-element">
                         <div class="cl-single_m damac">
-                            <img src="img/damac.png" alt="">
+                            <img src="img/damac.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m msoft">
-                            <img src="img/ms.png" alt="">
+                            <img src="img/ms.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m vofox">
-                            <img src="img/vofox.png" alt="">
+                            <img src="img/vofox.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m sib">
-                            <img src="img/sib.png" alt="">
+                            <img src="img/sib.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                     <div class="cl-4th_m animation-element">
                         <div class="cl-single_m vofox">
-                            <img src="img/vofox.png" alt="">
+                            <img src="img/vofox.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m sib">
-                            <img src="img/sib.png" alt="">
+                            <img src="img/sib.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m sobha">
-                            <img src="img/sobha.png" alt="">
+                            <img src="img/sobha.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m damac">
-                            <img src="img/damac.png" alt="">
+                            <img src="img/damac.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                     <div class="cl-4th_m animation-element">
                         <div class="cl-single_m sobha">
-                            <img src="img/sobha.png" alt="">
+                            <img src="img/sobha.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m damac">
-                            <img src="img/damac.png" alt="">
+                            <img src="img/damac.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m sib">
-                            <img src="img/sib.png" alt="">
+                            <img src="img/sib.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single_m msoft">
-                            <img src="img/ms.png" alt="">
+                            <img src="img/ms.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                 </div>

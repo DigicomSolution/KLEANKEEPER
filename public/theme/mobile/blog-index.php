@@ -36,7 +36,7 @@
         </div>
         <div class="latest-company--updates_m">
             <div class="lc--icon-m">
-                <img src="img/mail-ball.png" alt="">
+                <img src="img/mail-ball.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
             </div>
             <div class="lc--text-m">
                 <p>Latest company updates and industry news</p>

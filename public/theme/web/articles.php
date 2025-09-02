@@ -50,7 +50,7 @@
                 <div class="company-touch">
                     <div class="company-updates">
                         <div class="m-icon">
-                            <img src="img/mail-top.png" alt="">
+                            <img src="img/mail-top.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="m-detail">
                             <span>Latest company updates and industry news</span>

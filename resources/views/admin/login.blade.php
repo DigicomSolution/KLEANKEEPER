@@ -35,7 +35,7 @@
       <!-- START Login Background Pic Wrapper-->
       <div class="bg-pic">
         <!-- START Background Pic-->
-        <img src="{{asset('miniweb/assets/img/demo/new-york-city-buildings-sunrise-morning-hd-wallpaper.jpg')}}" data-src="{{asset('miniweb/assets/img/demo/new-york-city-buildings-sunrise-morning-hd-wallpaper.jpg')}}" data-src-retina="{{asset('miniweb/assets/img/demo/new-york-city-buildings-sunrise-morning-hd-wallpaper.jpg')}}" alt="" class="lazy">
+        <img src="{{asset('miniweb/assets/img/demo/new-york-city-buildings-sunrise-morning-hd-wallpaper.jpg')}}" data-src="{{asset('miniweb/assets/img/demo/new-york-city-buildings-sunrise-morning-hd-wallpaper.jpg')}}" data-src-retina="{{asset('miniweb/assets/img/demo/new-york-city-buildings-sunrise-morning-hd-wallpaper.jpg')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" class="lazy">
         <!-- END Background Pic-->
         <!-- START Background Caption-->
         <div class="bg-caption pull-bottom sm-pull-bottom text-white p-l-20 m-b-20">
@@ -55,7 +55,7 @@
           <div class="pull-bottom sm-pull-bottom">
             <div class="m-b-30 p-r-80 sm-m-t-20 sm-p-r-15 sm-p-b-20 clearfix">
               <div class="col-sm-3 col-md-2 no-padding">
-                <!--<img alt="" class="m-t-5" data-src="{{asset('miniweb/assets/img/demo/pages_icon.png')}}" data-src-retina="{{asset('miniweb/assets/img/demo/pages_icon_2x.png')}}" height="60" src="{{asset('miniweb/assets/img/demo/pages_icon.png')}}" width="60">-->
+                <!--<img alt="Klean Keepers image {{ rand(100000, 99999999) }}" class="m-t-5" data-src="{{asset('miniweb/assets/img/demo/pages_icon.png')}}" data-src-retina="{{asset('miniweb/assets/img/demo/pages_icon_2x.png')}}" height="60" src="{{asset('miniweb/assets/img/demo/pages_icon.png')}}" width="60">-->
               </div>
               <div class="col-sm-9 no-padding m-t-10">
                 

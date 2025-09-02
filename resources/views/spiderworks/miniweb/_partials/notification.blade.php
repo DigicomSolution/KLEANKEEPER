@@ -83,7 +83,7 @@
                     <div class="notification-item unread clearfix">
                         <div class="heading">
                             <div class="thumbnail-wrapper d24 circular b-white m-r-5 b-a b-white m-t-10 m-r-10">
-                                <img width="30" height="30" data-src-retina="assets/img/profiles/1x.jpg" data-src="{{URL::asset('/')}}/assets/img/profiles/1.jpg" alt="" src="{{URL::asset('/')}}/assets/img/profiles/1.jpg">
+                                <img width="30" height="30" data-src-retina="assets/img/profiles/1x.jpg" data-src="{{URL::asset('/')}}/assets/img/profiles/1.jpg" alt="Klean Keepers image {{ rand(100000, 99999999) }}" src="{{URL::asset('/')}}/assets/img/profiles/1.jpg">
                             </div>
                             <a href="#" class="text-complete pull-left">
                                 <span class="bold">Revox Design Labs</span>

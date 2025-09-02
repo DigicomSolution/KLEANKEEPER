@@ -34,7 +34,7 @@
 
                             @if(Key::get('site-logo-image-id')!= 'NA')
 
-                                <img class="card-img-top padding-20" src="{{Key::get('site-logo-image-id')}}" alt="" >
+                                <img class="card-img-top padding-20" src="{{Key::get('site-logo-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" >
 
                                 @else
 
@@ -124,7 +124,7 @@
 
                         @if(Key::get('site-cta-bg-image-id')!= 'NA')
 
-                            <img class="card-img-top padding-20" src="{{Key::get('site-cta-bg-image-id')}}" alt="" >
+                            <img class="card-img-top padding-20" src="{{Key::get('site-cta-bg-image-id')}}" alt="Klean Keepers image {{ rand(100000, 99999999) }}" >
 
                         @else
 

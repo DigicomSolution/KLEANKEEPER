@@ -32,7 +32,7 @@
 			</div>
 			<div class="col-md-12 text-center">
 				<div class="privacy-image_m">
-					<img src="img/privacy.png" alt="">
+					<img src="img/privacy.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
 				</div>
 			</div>
 		</div>

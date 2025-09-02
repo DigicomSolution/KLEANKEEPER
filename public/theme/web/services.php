@@ -50,16 +50,16 @@
             </div>
             <div class="col-md-6 mt60">
                 <div class="bnr-rt">
-                    <img src="img/banner-image.png" alt="">
+                    <img src="img/banner-image.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
                 <div class="bl-rect tp-loop-wrap rs-wave from-topw animation-element">
-                    <img src="img/rectangle.png" alt="">
+                    <img src="img/rectangle.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
                 <div class="gn-rect from-topw animation-element">
-                    <img src="img/rectgrn.png" alt="">
+                    <img src="img/rectgrn.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
                 <div class="brd-rect from-topw animation-element">
-                    <img src="img/rect-border.png" alt="">
+                    <img src="img/rect-border.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
             </div>
         </div>
@@ -71,7 +71,7 @@
         <div class="row sm-row">
             <div class="col-md-6">
                 <div class="bt-left-img">
-                    <img src="img/consultancy.png" alt="">
+                    <img src="img/consultancy.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
             </div>
             <div class="col-md-6">
@@ -119,7 +119,7 @@
         <div class="row sm-row">
             <div class="col-md-6">
                 <div class="bt-left-img">
-                    <img src="img/social-media.png" alt="">
+                    <img src="img/social-media.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                 </div>
             </div>
             <div class="col-md-6">
@@ -149,7 +149,7 @@
                 <div class="services_list">
                     <div class="sl-single anm-1s anm-fd from-top animation-element in-view">
                         <div class="sl-icon">
-                            <img src="img/l1.png" alt="" draggable="false">
+                            <img src="img/l1.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" draggable="false">
                         </div>
                         <div class="sl-desc">
                             <h4>Digital Marketing</h4>
@@ -159,7 +159,7 @@
                     </div>
                     <div class="sl-single anm-15s from-top animation-element in-view">
                         <div class="sl-icon">
-                            <img src="img/l2.png" alt="" draggable="false">
+                            <img src="img/l2.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" draggable="false">
                         </div>
                         <div class="sl-desc">
                             <h4>Digital Marketing</h4>
@@ -169,7 +169,7 @@
                     </div>
                     <div class="sl-single anm-2s from-top animation-element in-view">
                         <div class="sl-icon">
-                            <img src="img/l3.png" alt="" draggable="false">
+                            <img src="img/l3.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" draggable="false">
                         </div>
                         <div class="sl-desc">
                             <h4>Digital Marketing</h4>
@@ -179,7 +179,7 @@
                     </div>
                     <div class="sl-single anm-25s from-top animation-element in-view">
                         <div class="sl-icon">
-                            <img src="img/l1.png" alt="" draggable="false">
+                            <img src="img/l1.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" draggable="false">
                         </div>
                         <div class="sl-desc">
                             <h4>Digital Marketing</h4>
@@ -193,7 +193,7 @@
                 <div class="services_list">
                     <div class="sl-single anm-1s anm-fd from-top animation-element in-view">
                         <div class="sl-icon">
-                            <img src="img/l1.png" alt="" draggable="false">
+                            <img src="img/l1.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" draggable="false">
                         </div>
                         <div class="sl-desc">
                             <h4>Digital Marketing</h4>
@@ -203,7 +203,7 @@
                     </div>
                     <div class="sl-single anm-15s from-top animation-element in-view">
                         <div class="sl-icon">
-                            <img src="img/l2.png" alt="" draggable="false">
+                            <img src="img/l2.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" draggable="false">
                         </div>
                         <div class="sl-desc">
                             <h4>Digital Marketing</h4>
@@ -213,7 +213,7 @@
                     </div>
                     <div class="sl-single anm-2s from-top animation-element in-view">
                         <div class="sl-icon">
-                            <img src="img/l3.png" alt="" draggable="false">
+                            <img src="img/l3.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" draggable="false">
                         </div>
                         <div class="sl-desc">
                             <h4>Digital Marketing</h4>
@@ -223,7 +223,7 @@
                     </div>
                     <div class="sl-single anm-25s from-top animation-element in-view">
                         <div class="sl-icon">
-                            <img src="img/l1.png" alt="" draggable="false">
+                            <img src="img/l1.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" draggable="false">
                         </div>
                         <div class="sl-desc">
                             <h4>Digital Marketing</h4>
@@ -249,10 +249,10 @@
                         </div>
                     </div>
                     <!-- <div class="ser-rect-bd">
-                        <img src="img/re3.png" alt="">
+                        <img src="img/re3.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="ser-rect2-bd">
-                        <img src="img/re3.png" alt="">
+                        <img src="img/re3.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div> -->
                 </div>
             </div>
@@ -262,58 +262,58 @@
                 <div class="cl-inner">
                     <div class="cl-4th animation-element">
                         <div class="cl-single vofox">
-                            <img src="img/vofox.png" alt="">
+                            <img src="img/vofox.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single sib">
-                            <img src="img/sib.png" alt="">
+                            <img src="img/sib.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single sobha">
-                            <img src="img/sobha.png" alt="">
+                            <img src="img/sobha.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single msoft">
-                            <img src="img/ms.png" alt="">
+                            <img src="img/ms.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                     <div class="cl-4th animation-element">
                         <div class="cl-single damac">
-                            <img src="img/damac.png" alt="">
+                            <img src="img/damac.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single msoft">
-                            <img src="img/ms.png" alt="">
+                            <img src="img/ms.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single vofox">
-                            <img src="img/vofox.png" alt="">
+                            <img src="img/vofox.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single sib">
-                            <img src="img/sib.png" alt="">
+                            <img src="img/sib.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                     <div class="cl-4th animation-element">
                         <div class="cl-single vofox">
-                            <img src="img/vofox.png" alt="">
+                            <img src="img/vofox.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single sib">
-                            <img src="img/sib.png" alt="">
+                            <img src="img/sib.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single sobha">
-                            <img src="img/sobha.png" alt="">
+                            <img src="img/sobha.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single damac">
-                            <img src="img/damac.png" alt="">
+                            <img src="img/damac.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                     <div class="cl-4th animation-element">
                         <div class="cl-single sobha">
-                            <img src="img/sobha.png" alt="">
+                            <img src="img/sobha.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single damac">
-                            <img src="img/damac.png" alt="">
+                            <img src="img/damac.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single sib">
-                            <img src="img/sib.png" alt="">
+                            <img src="img/sib.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                         <div class="cl-single msoft">
-                            <img src="img/ms.png" alt="">
+                            <img src="img/ms.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                         </div>
                     </div>
                 </div>
@@ -334,7 +334,7 @@
     <div class="container">
         <div class="row engage-form--row">
             <div class="col-md-6 text-center col-con-icon">
-                <img src="img/lapwithptn.png" alt="" class="con-icon">
+                <img src="img/lapwithptn.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}" class="con-icon">
             </div>
             <div class="col-md-6 align-self-center">
                 <div class="engage-with-us">

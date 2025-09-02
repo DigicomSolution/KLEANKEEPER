@@ -140,7 +140,7 @@
                 <button class="profile-dropdown-toggle" type="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false" style="cursor: pointer">
               <span class="thumbnail-wrapper d32  inline">
-              <img src="https://img.icons8.com/office/32/000000/user-menu-male--v2.png" alt=""
+              <img src="https://img.icons8.com/office/32/000000/user-menu-male--v2.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}"
                    data-src="https://img.icons8.com/office/32/000000/user-menu-male--v2.png"
                    data-src-retina="https://img.icons8.com/office/32/000000/user-menu-male--v2.png" width="32" height="32">
               </span>

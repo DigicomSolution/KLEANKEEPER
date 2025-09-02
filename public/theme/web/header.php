@@ -4,10 +4,10 @@
             <div class="nav-header">
                 <a class="nav-brand" href="#">
                     <div class="sp-logo logo-start">
-                        <img src="img/logo.png" alt="">
+                        <img src="img/logo.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                      <div class="sp-logo logo-scroll">
-                        <img src="img/logo-sw.png" alt="">
+                        <img src="img/logo-sw.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                 </a>
                 <div class="nav-toggle"></div>

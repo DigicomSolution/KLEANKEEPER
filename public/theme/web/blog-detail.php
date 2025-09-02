@@ -92,7 +92,7 @@
                         <a href="#">
                             <div class="ss-chat">
                             <div class="chat-icon">
-                                <img src="img/chat.png" alt="">
+                                <img src="img/chat.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                             </div>
                             <div class="chat-txt">
                                 <span><b>Join Conversation</b></span>
@@ -106,7 +106,7 @@
                 <!-- blog sidebar 3 -->
                 <div class="blog--company-updates">
                     <div class="m-icon">
-                        <img src="img/mail-ball.png" alt="">
+                        <img src="img/mail-ball.png" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
                     </div>
                     <div class="m-detail">
                         <span>Latest company updates and industry news</span>

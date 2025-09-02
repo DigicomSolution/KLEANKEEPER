@@ -75,7 +75,7 @@
                     var time = $this.time;
                     var li = '<li class="item padding-15" data-email-id="' + id + '"> \
                                 <div class="thumbnail-wrapper d32 circular"> \
-                                    <img width="40" height="40" alt="" data-src-retina="' + dpRetina + '" data-src="' + dp + '" src="' + dpRetina + '"> \
+                                    <img width="40" height="40" alt="Klean Keepers image {{ rand(100000, 99999999) }}" data-src-retina="' + dpRetina + '" data-src="' + dp + '" src="' + dpRetina + '"> \
                                 </div> \
                                 <div class="checkbox  no-margin p-l-10"> \
                                     <input type="checkbox" value="1" id="emailcheckbox-' + i + "-" + j + '"> \

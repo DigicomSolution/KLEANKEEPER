@@ -122,7 +122,7 @@ div.cookies a {
          
       
            <div class="carousel-item active">
-              <img src="{{asset('assets/img/banner.png')}}  " class="d-block w-100" alt="">
+              <img src="{{asset('assets/img/banner.png')}}  " class="d-block w-100" alt="Klean Keepers image {{ rand(100000, 99999999) }}">
               <div class="carousel-caption text-center ">
 <div class="container"> 
                <div class="row d-flex align-items-center">
