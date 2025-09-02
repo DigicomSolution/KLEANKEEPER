@@ -44,6 +44,7 @@ class BlogController extends Controller
                 $blog = Page::where('slug','blogs')->first();
                 $blogs = Page::where('author',$slug)->where('type','blog')->paginate();
                 $title = 'Blogs created by '.$slug;
+                $blog->browser_title = $title;
                 return view('client.blog.index',compact('blogs','blog','title','categories'));
             }
         }
