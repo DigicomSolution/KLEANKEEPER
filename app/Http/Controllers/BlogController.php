@@ -15,7 +15,7 @@ class BlogController extends Controller
        $blogs = Page::where('type','blog')->where('status',1)->orderBy('blog_date','DESC')->paginate();
 
        if(isset($_GET['page'])){
-        $blogs = "Page ". $_GET['page']." - ". $blogs->browser_title;
+        $blog->browser_title = "Page ". $_GET['page']." - ". $blog->browser_title;
        }
 
         $categories = DB::table('services as s')
