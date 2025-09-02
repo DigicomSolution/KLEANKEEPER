@@ -14,6 +14,10 @@ class BlogController extends Controller
        if(!$blog){abort(404);}
        $blogs = Page::where('type','blog')->where('status',1)->orderBy('blog_date','DESC')->paginate();
 
+       if(isset($_GET['page'])){
+        $blogs = "Page ". $_GET['page']." - ". $blogs->browser_title;
+       }
+
         $categories = DB::table('services as s')
             ->join('pages as p','p.related_service_id','=','s.id')
             ->select('s.name','s.slug', DB::raw('count(*) as count'))
