@@ -4,7 +4,7 @@
 
 
 
-@section('title',$blog->browser_title)
+@section('title',$blog->name)
 
 @section('description',$blog->meta_description)
 
