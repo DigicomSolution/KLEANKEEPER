@@ -18,15 +18,6 @@
 
 <link rel="stylesheet" href="{{asset('assets/css/new.css')}}">
 
-
- <style type="text/css">
-     .home-about h4 {
-    font-size: 20px;
-    color: #085fb0;
-    font-weight: 700;
-}
- </style>
-
  @if(isset($service->extra_js))
 {!! $service->extra_js !!}
 @endif

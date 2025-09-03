@@ -6,15 +6,6 @@
 
 @section('head')
 <link rel="stylesheet" href="{{asset('assets/css/home_new.css')}}">
- <style type="text/css">
-     .home-about h4 {
-    font-size: 20px;
-    color: #085fb0;
-    font-weight: 700;
-}
-
-/** scc****/
- </style>
 
  
  @if(isset($service->extra_js))
