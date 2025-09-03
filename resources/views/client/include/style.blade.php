@@ -11,16 +11,6 @@
     <link rel="stylesheet" href="{{asset('assets/css/style.min.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <script src="https://kit.fontawesome.com/095cec0569.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{{asset('assets/css/new.min.css')}}">
     <link rel="stylesheet" href="{{asset('input/css/intlTelInput.min.css')}}">
     <script type="text/javascript" src="{{asset('input/js/intlTelInput.min.js')}}"></script>
-    <style>
-        .iti {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-        }
-        .error{
-            color: red;
-        }
-    </style>
+   
