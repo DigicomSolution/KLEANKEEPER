@@ -28,11 +28,12 @@ class AppServiceProvider extends ServiceProvider
             
         }else {
 
-            // $nonWwwUrl = request()->getScheme() . '://' . request()->getHost() . request()->getRequestUri();
-            // $nonWwwUrl = str_replace("https://", "https://www.", $nonWwwUrl);
-            // $nonWwwUrl = str_replace("http://", "https://www.", $nonWwwUrl);
-            // return header("Location: https://www.kleankeepers.co.uk".request()->getRequestUri());
-            // exit;
+            $nonWwwUrl = request()->getScheme() . '://' . request()->getHost() . request()->getRequestUri();
+            $nonWwwUrl = str_replace("https://", "https://www.", $nonWwwUrl);
+            $nonWwwUrl = str_replace("http://", "https://www.", $nonWwwUrl);
+            $redirectUrl = "https://www.kleankeepers.co.uk".request()->getRequestUri();
+            header("Location: " . $redirectUrl, true, 301);
+            exit;
         }
 
         Schema::defaultStringLength(191);
