@@ -2,10 +2,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
 <!-- Slick JS -->
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Magnific Popup CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
 
 <!-- Magnific Popup JS -->
 <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
@@ -15,6 +20,7 @@
 
 <!-- CounterUp -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<!-- Nice Select CSS -->
 
 <!-- Nice Select JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
@@ -91,6 +97,24 @@
         scrollTop: 0
       }, '300');
     });
+
+
+    /** 
+     $("li.start").next().css({"color": "red", "border": "2px solid red"});
+    $("li.start").prev().css({"color": "red", "border": "2px solid red"});
+     
+      $("li").hover(function(){
+        $(this).css("background-color", "yellow");
+        $(this).next().css({"color": "red", "border": "2px solid red"});
+        $(this).prev().css({"color": "red", "border": "2px solid red"});
+        }, function(){
+        $(this).css("background-color", "unset");
+         $(this).next().css({"color": "unset", "border": "unset"});
+         $(this).prev().css({"color": "unset", "border": "unset"});
+      });
+      **/
+
+
 
 
     $(".navbar-toggler").click(function() {
