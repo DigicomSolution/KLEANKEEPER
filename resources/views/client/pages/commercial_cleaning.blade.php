@@ -1,7 +1,7 @@
 @extends('client.base')
 
  @section('title',$service->browser_title)
- @section('description',$service->meta_description)
+ @section('description', $service->meta_description)
  @section('keywords',$service->meta_keywords)
 
 @section('head')
