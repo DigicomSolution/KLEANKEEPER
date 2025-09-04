@@ -99,7 +99,6 @@ div.cookies a {
 
 </style>
 
-<link rel="stylesheet" href="{{asset('assets/css/home_new.css')}}">
 @if(isset($home_footer->extra_js))
 {!!$home_footer->extra_js!!}
 @endif

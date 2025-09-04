@@ -5,7 +5,6 @@
  @section('keywords',$service->meta_keywords)
 
 @section('head')
-<link rel="stylesheet" href="{{asset('assets/css/home_new.css')}}">
 
  
  @if(isset($service->extra_js))

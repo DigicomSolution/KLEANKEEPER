@@ -13,7 +13,6 @@
 
 
 @section('head')
-<link rel="stylesheet" href="{{asset('assets/css/home_new.css')}}">
 
 
  
