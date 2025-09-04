@@ -1,6 +1,6 @@
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/bundle.css')}}">
     <link rel="icon" href="{{asset('assets/images/logo.png')}}" type="images" sizes="16x16">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
