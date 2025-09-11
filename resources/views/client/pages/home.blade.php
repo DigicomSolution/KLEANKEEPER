@@ -227,7 +227,7 @@ div.cookies a {
 
                         <div class="list-serv-item d-flex align-items-center justify-content-center">
 
-                            <a href="{{url('service/'.$obj->slug)}}">
+                            <a href="{{url('services/'.$obj->slug)}}">
 
                                 <div>
 
@@ -320,7 +320,7 @@ div.cookies a {
 data-parent-service-id="{{$obj->app_service_id}}"
                                                data-service-id="{{$ob->service->app_service_id}}">BOOK</a>
 
-                                               <a class="btn btn-sec" href="{{url('service/'.$ob->service->slug)}}">VIEW</a>
+                                               <a class="btn btn-sec" href="{{url('services/'.$ob->service->slug)}}">VIEW</a>
 
                                              </div>
                                              

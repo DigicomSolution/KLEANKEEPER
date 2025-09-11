@@ -44,7 +44,7 @@
 
                     @if($obj->id)
 
-                            <a href="{{url('service/'.$obj->slug)}}" class="btn btn-tag-dark" target="_blank">View service page
+                            <a href="{{url('services/'.$obj->slug)}}" class="btn btn-tag-dark" target="_blank">View service page
 
                             </a>
 

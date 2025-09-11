@@ -37,19 +37,6 @@ Route::get('/home-new', 'PageController@home_new')->name('home_new');
 Route::get('services', 'PageController@services')->name('services');
 
 
-// Route::get('service/{slug}', function ($slug) {
-
-//     return redirect('services/' . $slug);
-// });
-
-// Route::get('service/commercial-cleaning', function ($slug) {
-//     return redirect('service/commercial-cleaning/');
-// });
-
-// Route::get('service/commercial-cleaning/{slug}', function ($slug) {
-//     return redirect('services/commercial-cleaning/' . $slug);
-// });
-
 Route::get('sitemap/', 'SitemapController@index')->name('sitemap.index');
 Route::get('/sitemap/blogs', 'SitemapController@blogs')->name('sitemap.blogs');
 Route::get('/sitemap/services', 'SitemapController@services')->name('sitemap.services');

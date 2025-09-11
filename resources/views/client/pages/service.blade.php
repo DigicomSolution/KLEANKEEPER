@@ -90,7 +90,7 @@
 
                     @if(!empty($parent))
                         @if($parent->status == 1)
-                        <li><a href="{{url('service/'.$parent->slug)}}">{{$parent->name}}</a></li>
+                        <li><a href="{{url('services/'.$parent->slug)}}">{{$parent->name}}</a></li>
                         @endif
                     @endif
 
@@ -167,7 +167,7 @@
                                    data-parent-service-id="{{$service->app_service_id}}"
                                    data-service-id="{{$ob->service->app_service_id}}">BOOK</a>
 
-                                    <a class="btn btn-sec" href="{{url('service/'.$ob->service->slug)}}">VIEW</a>
+                                    <a class="btn btn-sec" href="{{url('services/'.$ob->service->slug)}}">VIEW</a>
 
                                 </div>
                                 

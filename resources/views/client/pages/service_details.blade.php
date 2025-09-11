@@ -27,7 +27,7 @@
         <ul>
           <li><a href="{{url('/')}}">Home</a></li>
           @if(!empty($parent))
-            <li><a href="{{url('service/'.$parent->slug)}}">{{$parent->name}}</a></li>
+            <li><a href="{{url('services/'.$parent->slug)}}">{{$parent->name}}</a></li>
           @endif
           <li>{{$service->name}}</li>
         </ul>
@@ -46,7 +46,7 @@
               <ul class="service-cat-list">
                   @foreach($parent->related_services as $ob)
                       @if(!empty($ob->service))
-                          <li @if(url()->full() == url('service/'.$ob->service->slug)) class="active" @endif><a href="{{url('service/'.$ob->service->slug)}}">{{$ob->service->name}}<i class="far fa-angle-right"></i></a></li>
+                          <li @if(url()->full() == url('services/'.$ob->service->slug)) class="active" @endif><a href="{{url('services/'.$ob->service->slug)}}">{{$ob->service->name}}<i class="far fa-angle-right"></i></a></li>
                       @endif
                   @endforeach
                 <li><a href="#">Tolilet Cleaning<i class="far fa-angle-right"></i></a></li>

@@ -108,7 +108,7 @@ class PageController extends Controller
             if(!empty($check->parent_service)){
                 
             if($check->parent_service->slug == 'commercial-cleaning'){
-                return redirect('service/commercial-cleaning/'.$service->slug);
+                return redirect('services/commercial-cleaning/'.$service->slug);
             }  
             }  
         }

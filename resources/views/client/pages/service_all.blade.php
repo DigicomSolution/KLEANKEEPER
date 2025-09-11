@@ -105,7 +105,7 @@
                      <div class="services-content">
                          <h4 class="title" style="min-height:55px;"> {{$obj->name}}</h4>
                          {{$obj->summary}}
-                         <a href="{{url('service/'.$obj->slug)}}">Read More <i class="fas fa-plus"></i></a>
+                         <a href="{{url('services/'.$obj->slug)}}">Read More <i class="fas fa-plus"></i></a>
                      </div>
                  </div>
              </div>
