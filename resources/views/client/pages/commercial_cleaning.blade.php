@@ -345,6 +345,7 @@
 				<div class="col-lg-4">
 					<div class="cta-links text-right">
                         <p><a
+                            aria-label="cat links"
                            @if(strpos(Key::get('service-cta-btn-1-action'),'#') !== false) data-toggle="modal" data-target="{{Key::get('service-cta-btn-1-action')}}"
                            @elseif(strpos(Key::get('service-cta-btn-1-action'),'http') !== false)
                            href="{{Key::get('service-cta-btn-1-action')}}"

@@ -354,7 +354,7 @@ data-parent-service-id="{{$obj->app_service_id}}"
 
                     <div class="col-md-12 text-center">
 
-                        <a class="btn btn-main" href="{{url('services')}}"><span class="btn-span">VIEW ALL</span></a>
+                        <a aria-label="view all" class="btn btn-main" href="{{url('services')}}"><span class="btn-span">VIEW ALL</span></a>
 
                     </div>
 
@@ -465,7 +465,7 @@ data-parent-service-id="{{$obj->app_service_id}}"
 
 
                     <a class="btn btn-main2"
-
+                        aria-label="cat links modal"
                        @if(strpos(Key::get('site-cta-btn-1-action'),'#') !== false) data-toggle="modal" data-target="{{Key::get('site-cta-btn-1-action')}}"
 
                        @elseif(strpos(Key::get('site-cta-btn-1-action'),'http') !== false)
@@ -483,7 +483,7 @@ data-parent-service-id="{{$obj->app_service_id}}"
 
 
                     <a class="btn btn-main3"
-
+                        aria-label="cat main"
                        @if(strpos(Key::get('site-cta-btn-2-action'),'#') !== false) data-toggle="modal" data-target="{{Key::get('site-cta-btn-2-action')}}"
 
                        @elseif(strpos(Key::get('site-cta-btn-2-action'),'http') !== false)

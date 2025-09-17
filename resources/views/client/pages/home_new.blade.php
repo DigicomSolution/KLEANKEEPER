@@ -297,7 +297,7 @@ data-parent-service-id="{{$obj->app_service_id}}"
 
                     <div class="col-md-12 text-center">
 
-                        <a class="btn btn-main" href="{{url('services')}}"><span class="btn-span">   All Services </span></a>
+                        <a aria-label="cat links" class="btn btn-main" href="{{url('services')}}"><span class="btn-span">   All Services </span></a>
 
                     </div>
 
@@ -3784,7 +3784,7 @@ style="background-image: url({{asset('assets/images/pricing-bg.jpg')}});">
          <div class="cta-links text-right">
 
             <p><a
-
+               aria-label="cat links span"
                   @if(strpos(Key::get('service-cta-btn-1-action'),'#') !==false) data-toggle="modal" data-target="{{Key::get('service-cta-btn-1-action')}}"
 
                   @elseif(strpos(Key::get('service-cta-btn-1-action'),'http') !==false)
@@ -3802,7 +3802,7 @@ style="background-image: url({{asset('assets/images/pricing-bg.jpg')}});">
 
 
             <a class="main-btn main-btn-3"
-
+               aria-label="cat links span1"
                @if(strpos(Key::get('service-cta-btn-2-action'),'#') !==false) data-toggle="modal" data-target="{{Key::get('service-cta-btn-2-action')}}"
 
                @elseif(strpos(Key::get('service-cta-btn-2-action'),'http') !==false)
@@ -3911,7 +3911,7 @@ style="background-image: url({{asset('assets/images/pricing-bg.jpg')}});">
 
 
                     <a class="btn btn-main2"
-
+                     aria-label="cat main"
                        @if(strpos(Key::get('site-cta-btn-1-action'),'#') !== false) data-toggle="modal" data-target="{{Key::get('site-cta-btn-1-action')}}"
 
                        @elseif(strpos(Key::get('site-cta-btn-1-action'),'http') !== false)
@@ -3929,7 +3929,7 @@ style="background-image: url({{asset('assets/images/pricing-bg.jpg')}});">
 
 
                     <a class="btn btn-main3"
-
+                     aria-label="cat links modal"
                        @if(strpos(Key::get('site-cta-btn-2-action'),'#') !== false) data-toggle="modal" data-target="{{Key::get('site-cta-btn-2-action')}}"
 
                        @elseif(strpos(Key::get('site-cta-btn-2-action'),'http') !== false)

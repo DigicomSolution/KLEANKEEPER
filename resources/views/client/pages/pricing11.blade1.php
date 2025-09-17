@@ -14,7 +14,7 @@
 
 <nav class="navbar navbar-expand-lg  keep-menu">
 	<div class="container">
-  <a class="navbar-brand" href="#"><img src="{{asset('assets/images/logo.png')}}" alt="KleenKeepers logo" ></a>
+  <a aria-label="KleenKeepers Logo" class="navbar-brand" href="#"><img src="{{asset('assets/images/logo.png')}}" alt="KleenKeepers logo" ></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
   </button>
@@ -667,7 +667,7 @@
                                                                </div>
                                                                <div class="right-content">
                                                                   <p class="button-description">More Information</p>
-                                                                  <div class="wow flash" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: flash;"> <a class="cta-button btn font-smooth " href="" target="" rel=""> <span>Get Free Estimate</span> </a></div>
+                                                                  <div class="wow flash" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: flash;"> <a aria-label="Get Free Estimate" class="cta-button btn font-smooth " href="" target="" rel=""> <span>Get Free Estimate</span> </a></div>
                                                                </div>
                                                             </div>
                                                          </div>

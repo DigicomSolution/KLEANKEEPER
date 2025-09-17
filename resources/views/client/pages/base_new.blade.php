@@ -148,8 +148,8 @@
             </div>
             <div class="col-8 p-0">
                 <div class="app-url">
-                    <a href="https://apps.apple.com/gb/app/klean-keepers/id1509700722"><i class="fab fa-apple"></i></a>
-                    <a href="https://play.google.com/store/apps/details?id=com.kleankeepers.app&amp;hl=en_IN&amp;gl=US"><i
+                    <a aria-label="Apple icon" href="https://apps.apple.com/gb/app/klean-keepers/id1509700722"><i class="fab fa-apple"></i></a>
+                    <a aria-label="Google icon" href="https://play.google.com/store/apps/details?id=com.kleankeepers.app&amp;hl=en_IN&amp;gl=US"><i
                             class="fab fa-google-play"></i></a>
                 </div>
                 <p>Get 10% off using App</p>

@@ -3323,7 +3323,7 @@
              <div class="cta-links text-right">
 
                 <p><a
-
+                     aria-label="cat links modal1"
                       @if(strpos(Key::get('service-cta-btn-1-action'),'#') !==false) data-toggle="modal" data-target="{{Key::get('service-cta-btn-1-action')}}"
 
                       @elseif(strpos(Key::get('service-cta-btn-1-action'),'http') !==false)
@@ -3341,7 +3341,7 @@
 
 
                 <a class="main-btn main-btn-3"
-
+                  aria-label="cat links mainbtn"
                    @if(strpos(Key::get('service-cta-btn-2-action'),'#') !==false) data-toggle="modal" data-target="{{Key::get('service-cta-btn-2-action')}}"
 
                    @elseif(strpos(Key::get('service-cta-btn-2-action'),'http') !==false)
