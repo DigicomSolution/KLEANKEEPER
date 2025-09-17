@@ -122,7 +122,7 @@
 
        <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
 
-      <img src="{{Key::get('partner-first-banner-image-id')}}" class="img-fluid" />  
+      <img alt="featuerd image <?= uniqid()?>" src="{{Key::get('partner-first-banner-image-id')}}" class="img-fluid" />  
 
       </div>
 

@@ -8,7 +8,7 @@
 
                 <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span>
 
-                <img src="{{Key::get('site-about-image-id')}}" class="img-fluid" />
+                <img alt="featuerd image <?= uniqid()?>" src="{{Key::get('site-about-image-id')}}" class="img-fluid" />
 
             </div>
 

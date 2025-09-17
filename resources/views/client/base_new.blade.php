@@ -4,7 +4,7 @@
 
 <html>
 
-<head>
+<html class="no-js" lang="en">
 
     <!-- Required meta tags -->
 

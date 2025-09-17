@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg  keep-menu" style="border-top: 0px;">
     <div class="container">
 
-        <a class="navbar-brand" href="{{url('/')}}"><img src="{{Key::get('site-logo-image-id')}}" ></a>
+        <a class="navbar-brand" href="{{url('/')}}"><img src="{{Key::get('site-logo-image-id')}}" alt="KleenKeepers logo" ></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>

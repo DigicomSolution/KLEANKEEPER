@@ -84,7 +84,7 @@
                                             <li>
                                                 <div class="home-offer-list">
                                                     @if(!empty($obj->button_text))<a class="btn btn-sec home-offer-btn" href="{{$obj->button_link}}" target="{{$obj->button_link_target}}">{{$obj->button_text}}</a>@endif
-                                                    <img src="{{asset($obj->media->file_path)}}" class="img-fluid" alt="{{$obj->alt_text}}" />
+                                                    <img src="{{asset($obj->media->file_path)}}" class="img-fluid" alt="{{$obj->alt_text == '' ? '...' : $obj->alt_text}}" />
                                                 </div>
                                             </li>
 
@@ -178,7 +178,7 @@
             @if(!empty($service->image_left))
                 <div class="col-md-6 text-center" data-slideinleft>
                     <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
-                    <img src="{{asset($service->image_left->file_path)}}" class="img-fluid" />
+                    <img alt="featuerd image <?= uniqid()?>" src="{{asset($service->image_left->file_path)}}" class="img-fluid" />
                 </div>
             @endif
 
@@ -198,7 +198,7 @@
             @if(!empty($service->image_right))
                 <div class="col-md-6 text-center" data-slideinleft>
                     <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
-                    <img src="{{asset($service->image_right->file_path)}}" class="img-fluid" />
+                    <img alt="featuerd image <?= uniqid()?>" src="{{asset($service->image_right->file_path)}}" class="img-fluid" />
                 </div>
             @endif
 
@@ -241,7 +241,7 @@
             @foreach($brands->photos as $obj)
                 <div class="col-6 col-md-4 p-0">
                   <div class="client-logo-lst">
-                    <img src="{{asset($obj->media->file_path)}}" class="img-fluid" style="width: 90px;height: 75px;object-fit: cover"/>
+                    <img alt="KleenKeeper image <?= uniqid()?>" src="{{asset($obj->media->file_path)}}" class="img-fluid" style="width: 90px;height: 75px;object-fit: cover"/>
                   </div>
                 </div>
             @endforeach
@@ -280,7 +280,7 @@
     @foreach($brands->photos as $obj)
         <li > 
           <div class="client-logo-lst">
-              <img src="{{asset($obj->media->file_path)}}" class="img-fluid" style="width: 90px;height: 75px;object-fit: cover"/>
+              <img alt="KleenKeeper image <?= uniqid()?>" src="{{asset($obj->media->file_path)}}" class="img-fluid" style="width: 90px;height: 75px;object-fit: cover"/>
               </div>
         </li> 
        @endforeach

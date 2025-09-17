@@ -146,7 +146,7 @@
 
                                 @if(!empty($ob->service->featured_image))
 
-                                    <img src="{{asset($ob->service->featured_image->file_path)}}" class="img-fluid" />
+                                    <img alt="featuerd image <?= uniqid()?>" src="{{asset($ob->service->featured_image->file_path)}}" class="img-fluid" />
 
                                 @elseif(!empty($ob->service->banner_image))
 
@@ -225,7 +225,7 @@
 
                     <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
 
-                    <img src="{{asset($service->image_left->file_path)}}" class="img-fluid" />
+                    <img alt="featuerd image <?= uniqid()?>" src="{{asset($service->image_left->file_path)}}" class="img-fluid" />
 
                 </div>
 
@@ -265,7 +265,7 @@
 
                     <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
 
-                    <img src="{{asset($service->image_right->file_path)}}" class="img-fluid" />
+                    <img alt="featuerd image <?= uniqid()?>" src="{{asset($service->image_right->file_path)}}" class="img-fluid" />
 
                 </div>
 
@@ -321,7 +321,7 @@
 
                                             @if(!empty($obj->button_text))<a class="btn btn-sec home-offer-btn" href="{{$obj->button_link}}" target="{{$obj->button_link_target}}">{{$obj->button_text}}</a>@endif
 
-                                            <img src="{{asset($obj->media->file_path)}}" class="img-fluid" alt="{{$obj->alt_text}}" />
+                                            <img src="{{asset($obj->media->file_path)}}" class="img-fluid" alt="{{$obj->alt_text == '' ? '...' : $obj->alt_text}}" />
 
                                         </div>
 

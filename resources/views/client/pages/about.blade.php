@@ -33,7 +33,7 @@
             <div class="row  md-mb-0">
                 <div class="col-md-6 text-center" data-slideinleft>
                     <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
-                    <img src="{{Key::get('about-us-feature-image-id')}}" class="img-fluid" />
+                    <img alt="featuerd image <?= uniqid()?>" src="{{Key::get('about-us-feature-image-id')}}" class="img-fluid" />
                 </div>
                 <div class="col-md-6">
                     <!-- <span class="mob-dis-none" data-slideInLeft>ABOUT US</span>  -->
@@ -66,7 +66,7 @@
             <div class="row ">
                 <div class="col-md-6 text-center" data-slideinleft>
                     <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
-                    <img src="{{Key::get('about-us-founder-image-id')}}" class="img-fluid" />
+                    <img alt="featuerd image <?= uniqid()?>" src="{{Key::get('about-us-founder-image-id')}}" class="img-fluid" />
                 </div>
                 <div class="col-md-6">
                     {!! Key::get('about-us-founder-content') !!}

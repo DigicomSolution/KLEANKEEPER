@@ -337,7 +337,7 @@ data-parent-service-id="{{$obj->app_service_id}}"
 
                             @if(!empty($obj->button_text))<a class="btn btn-sec home-offer-btn" href="{{$obj->button_link}}" target="{{$obj->button_link_target}}">{{$obj->button_text}}</a>@endif
 
-                            <img src="{{asset($obj->media->file_path)}}" class="img-fluid" alt="{{$obj->alt_text}}" />
+                            <img src="{{asset($obj->media->file_path)}}" class="img-fluid" alt="{{$obj->alt_text == '' ? '...' : $obj->alt_text}}" />
 
                         </div>
 
@@ -389,7 +389,7 @@ data-parent-service-id="{{$obj->app_service_id}}"
                <div class="row m-0">
                   <div class="col-md-6 text-center trans-stop" data-slideinleft>
                      <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span>
-                     <img src="{{asset('assets/img/hm-ab.png')}}  " class="img-fluid" />
+                     <img alt="featuerd image <?= uniqid()?>" src="{{asset('assets/img/hm-ab.png')}}  " class="img-fluid" />
                   </div>
                   <div class="col-md-6  "  >
                      <h1  ><b><span  >Why Choose Klean Keepers for Cleaning Services in London? 

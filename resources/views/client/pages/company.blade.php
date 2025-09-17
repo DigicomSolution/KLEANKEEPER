@@ -140,7 +140,7 @@
             <div class="row mb-5">
                 <div class="col-md-6 text-center" data-slideinleft>
                     <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
-                    <img src="{{asset('assets/images/serv-1.jpg')}}" class="img-fluid" />
+                    <img alt="featuerd image <?= uniqid()?>" src="{{asset('assets/images/serv-1.jpg')}}" class="img-fluid" />
                 </div>
                 <div class="col-md-6">
                     <!-- <span class="mob-dis-none" data-slideInLeft>ABOUT US</span>  -->
@@ -172,7 +172,7 @@
 
                 <div class="col-md-6 text-center" data-slideinleft>
                     <!-- <span  class="web-dis-none mob-dis-unset abt-hd">ABOUT US</span> --->
-                    <img src="{{asset('assets/images/serv-2.jpg')}}" class="img-fluid" />
+                    <img alt="featuerd image <?= uniqid()?>" src="{{asset('assets/images/serv-2.jpg')}}" class="img-fluid" />
                 </div>
 
             </div>
@@ -192,25 +192,25 @@
                         <li >
                             <div class="home-offer-list">
                                 <a class="btn btn-sec home-offer-btn ">Know More</a>
-                                <img src="{{asset('assets/images/offer.png')}}" class="img-fluid" />
+                                <img src="{{asset('assets/images/offer.png')}}" class="img-fluid" alt="know more image 1" />
                             </div>
                         </li>
                         <li >
                             <div class="home-offer-list">
                                 <a class="btn btn-sec home-offer-btn ">Know More</a>
-                                <img src="{{asset('assets/images/offer.png')}}" class="img-fluid" />
+                                <img src="{{asset('assets/images/offer.png')}}" class="img-fluid" alt="know more image 2" />
                             </div>
                         </li>
                         <li >
                             <div class="home-offer-list">
                                 <a class="btn btn-sec home-offer-btn ">Know More</a>
-                                <img src="{{asset('assets/images/offer.png')}}" class="img-fluid" />
+                                <img src="{{asset('assets/images/offer.png')}}" class="img-fluid" alt="know more image 3" />
                             </div>
                         </li>
                         <li >
                             <div class="home-offer-list">
                                 <a class="btn btn-sec home-offer-btn ">Know More</a>
-                                <img src="{{asset('assets/images/offer.png')}}" class="img-fluid" />
+                                <img src="{{asset('assets/images/offer.png')}}" class="img-fluid" alt="know more image 1" />
                             </div>
                         </li>
                     </ul>
@@ -307,7 +307,7 @@
 
                 <div class="col-md-6 text-center" data-slideinRight>
                     <div class="home-work-list count-5">
-                        <img src="{{asset('assets/images/work-2.png')}}" class="img-fluid" />
+                        <img alt="featuerd image <?= uniqid()?>" src="{{asset('assets/images/work-2.png')}}" class="img-fluid" />
                         <h4>Pay the fixed rate</h4>
                         <p>Pay the fixed price so that the expert can
                             start working while you sit back and relax.
