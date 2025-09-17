@@ -154,9 +154,9 @@
                     <div class="col-md-3">
                         <div class="home-serv-item">
                             @if(!empty($ob->service->featured_image))
-                                <img src="{{asset($ob->service->featured_image->file_path)}}" class="img-fluid" />
+                                <img alt="<?= $ob->service->slug;?>" src="{{asset($ob->service->featured_image->file_path)}}" class="img-fluid" />
                             @else
-                                <img src="{{asset('service-image-not-found.jpg')}}" class="img-fluid" />
+                                <img <?= $ob->service->slug;?> src="{{asset('service-image-not-found.jpg')}}" class="img-fluid" />
                             @endif
                             <div class="home-serv-btn-cntr">
                                 <a class="btn btn-sec" href="{{url('services/'.$service->slug.'/'.$ob->service->slug)}}">ENQUIRE</a>
@@ -241,7 +241,7 @@
             @foreach($brands->photos as $obj)
                 <div class="col-6 col-md-4 p-0">
                   <div class="client-logo-lst">
-                    <img alt="KleenKeeper image <?= uniqid()?>" src="{{asset($obj->media->file_path)}}" class="img-fluid" style="width: 90px;height: 75px;object-fit: cover"/>
+                    <img alt="KleanKeeper image <?= uniqid()?>" src="{{asset($obj->media->file_path)}}" class="img-fluid" style="width: 90px;height: 75px;object-fit: cover"/>
                   </div>
                 </div>
             @endforeach
@@ -280,7 +280,7 @@
     @foreach($brands->photos as $obj)
         <li > 
           <div class="client-logo-lst">
-              <img alt="KleenKeeper image <?= uniqid()?>" src="{{asset($obj->media->file_path)}}" class="img-fluid" style="width: 90px;height: 75px;object-fit: cover"/>
+              <img alt="KleanKeeper image <?= uniqid()?>" src="{{asset($obj->media->file_path)}}" class="img-fluid" style="width: 90px;height: 75px;object-fit: cover"/>
               </div>
         </li> 
        @endforeach
