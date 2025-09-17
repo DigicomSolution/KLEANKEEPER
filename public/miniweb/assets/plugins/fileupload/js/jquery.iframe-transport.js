@@ -77,7 +77,7 @@
                     // so we set the name along with the iframe HTML markup:
                     counter += 1;
                     iframe = $(
-                        '<iframe src="' + initialIframeSrc +
+                        '<iframe title="Fix for IE endless progress b" src="' + initialIframeSrc +
                             '" name="iframe-transport-' + counter + '"></iframe>'
                     ).bind('load', function () {
                         var fileInputClones,

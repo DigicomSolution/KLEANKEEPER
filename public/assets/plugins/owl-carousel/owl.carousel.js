@@ -2428,7 +2428,7 @@
 
 		this._core.reset(item.index());
 
-		html = $( '<iframe frameborder="0" allowfullscreen mozallowfullscreen webkitAllowFullScreen ></iframe>' );
+		html = $( '<iframe title="youtube embded title" frameborder="0" allowfullscreen mozallowfullscreen webkitAllowFullScreen ></iframe>' );
 		html.attr( 'height', height );
 		html.attr( 'width', width );
 		if (video.type === 'youtube') {
