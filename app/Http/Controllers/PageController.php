@@ -185,7 +185,7 @@ class PageController extends Controller
         }
 
         $brands = Slider::where('code','brands')->first();
-        $service->browser_title = "Home - " . explode("-", $service->browser_title)[0];
+        $service->browser_title = "Home - KleenKeepers" . explode("-", $service->browser_title)[0];
         $service->meta_description = substr($service->meta_description, 0, 150);
         return view('client.pages.commercial_cleaning',compact('service','brands','offers'));
     }
