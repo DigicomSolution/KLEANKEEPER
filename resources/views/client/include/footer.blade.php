@@ -101,7 +101,7 @@
 
         <div class="row   link-sec">
             <div class="col-md-3   ">
-                <img src="{{asset('assets/images/logo.png')}}"/ >
+                <img alt="featuerd image <?= uniqid()?>" src="{{asset('assets/images/logo.png')}}"/ >
             </div>
 
 

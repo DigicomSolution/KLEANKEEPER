@@ -241,15 +241,15 @@ div.cookies a {
                                           
                                               @if(!empty($ob->service->featured_image))
 
-                                                  <img src="{{asset($ob->service->featured_image->file_path)}}" class="img-fluid" />
+                                                  <img alt="featuerd image <?= uniqid()?>" src="{{asset($ob->service->featured_image->file_path)}}" class="img-fluid" />
 
                                                   @elseif(!empty($ob->service->banner_image))
 
-                                                     <img src="{{asset($ob->service->banner_image->file_path)}}" class="img-fluid" />
+                                                     <img alt="featuerd image <?= uniqid()?>" src="{{asset($ob->service->banner_image->file_path)}}" class="img-fluid" />
 
                                                   @else
 
-                                                  <img src="{{asset('service-image-not-found.jpg')}}" class="img-fluid" />
+                                                  <img alt="featuerd image <?= uniqid()?>" src="{{asset('service-image-not-found.jpg')}}" class="img-fluid" />
 
                                               @endif
                                               </div>  </a>

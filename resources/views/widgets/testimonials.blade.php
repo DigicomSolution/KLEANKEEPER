@@ -17,7 +17,7 @@
                 <li>
                     <div class="test-list-cntr">
                         @if(!empty($obj->file_path))
-                        <img src="{{asset($obj->file_path)}}" class="img-fluid"/>
+                        <img alt="featuerd image <?= uniqid()?>" src="{{asset($obj->file_path)}}" class="img-fluid"/>
                         @endif
                         <h4>{{$obj->name}}</h4>
                         <p>{{$obj->description}}</p>
@@ -28,7 +28,7 @@
 
 
             </ul>
-            <img src="{{asset('assets/images/test-icon.png')}}" class="test-icon" />
+            <img alt="featuerd image <?= uniqid()?>" src="{{asset('assets/images/test-icon.png')}}" class="test-icon" />
         </div>
 
     </div>

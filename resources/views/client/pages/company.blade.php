@@ -353,7 +353,7 @@
                 <ul id="lightSlider6" data-slideinleft>
                     <li >
                         <div class="test-list-cntr">
-                            <img src="{{asset('assets/images/test.jpg')}}" class="img-fluid"/>
+                            <img alt="featuerd image <?= uniqid()?>" src="{{asset('assets/images/test.jpg')}}" class="img-fluid"/>
                             <h4>JOHNS</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
                             <div class="clearfix"></div>
@@ -842,7 +842,7 @@
 
             <div class="row   link-sec">
                 <div class="col-md-3   ">
-                    <img src="{{asset('assets/images/logo.png')}}"/ >
+                    <img alt="featuerd image <?= uniqid()?>" src="{{asset('assets/images/logo.png')}}"/ >
                 </div>
 
 

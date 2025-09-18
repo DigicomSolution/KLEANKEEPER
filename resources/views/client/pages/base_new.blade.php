@@ -131,7 +131,7 @@
                             value="">
                     </div>
                     <div class="modal-footer">
-                        <img src="{{ Key::get('site-logo-image-id') }}">
+                        <img alt="featuerd image <?= uniqid()?>" src="{{ Key::get('site-logo-image-id') }}">
                         <button type="submit" class="btn btn-primary">Continue booking</button>
                     </div>
                 </form>
