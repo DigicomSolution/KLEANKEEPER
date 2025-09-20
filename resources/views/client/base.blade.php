@@ -153,7 +153,7 @@
     <div class="app-cntr" style="display: none;">
         <div class="row m-0 d-flex align-items-center">
             <div class="col-3  ">
-                <img src="{{ Key::get('site-logo-image-id') }}">
+                <img alt="KleenKeepers commercial cleaner" src="{{ Key::get('site-logo-image-id') }}">
             </div>
             <div class="col-8 p-0">
                 <div class="app-url">
