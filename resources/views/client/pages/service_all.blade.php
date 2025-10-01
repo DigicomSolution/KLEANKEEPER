@@ -6,7 +6,7 @@ if($description == "service-meta-description"){
 }
 @endphp
  @section('title',Key::get('service-meta-title'))
- @section('description', "Kleen" .)
+ @section('description', $description)
  @section('keywords',Key::get('service-meta-keywords'))
 
 
