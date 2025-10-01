@@ -25,7 +25,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('assets/images/banner.jpg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('assets/images/banner.jpg')}}" class="d-block w-100" alt="... klena carousel indicator">
                 <div class="carousel-caption  ">
                     <h5>Perfect Home Services</h5>
                     <p> Your one stop shop for all home services.  </p>

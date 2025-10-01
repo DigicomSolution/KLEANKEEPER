@@ -27,9 +27,9 @@
          @foreach($slider->photos as $obj)
          <div class="carousel-item @if($loop->index == 0) active @endif">
              @if(!empty($obj->media))
-             <img src="{{asset($obj->media->file_path)}}" class="d-block w-100" alt="{{$obj->alt_text}}">
+             <img src="{{asset($obj->media->file_path)}}" class="d-block w-100" alt="{{$obj->alt_text}} klena alt iamge">
              @else
-             <img src="{{asset('no-slider.jpg')}}" class="d-block w-100" alt="{{$obj->alt_text}}">
+             <img src="{{asset('no-slider.jpg')}}" class="d-block w-100" alt="{{$obj->alt_text}} klena alt image">
              @endif
              <div class="carousel-caption text-center ">
                  <h5>{{$obj->title}}</h5>
@@ -91,11 +91,11 @@
                          <i>
 
                              @if(!empty($obj->icon))
-                             <img src="{{asset($obj->icon->file_path)}}" class="ser-img" alt="{{$obj->name}}" />
+                             <img src="{{asset($obj->icon->file_path)}}" class="ser-img" alt="{{$obj->name}} klean" />
                              @endif
 
                              @if(!empty($obj->icon_alt))
-                             <img src="{{asset($obj->icon_alt->file_path)}}" class="ser-hover-img" alt="{{$obj->name}}" />
+                             <img src="{{asset($obj->icon_alt->file_path)}}" class="ser-hover-img" alt="{{$obj->name}} klena" />
                              @endif
 
                          </i>
