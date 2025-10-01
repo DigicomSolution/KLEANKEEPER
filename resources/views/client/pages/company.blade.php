@@ -228,7 +228,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5 text-center">
-                    <img src="{{asset('assets/images/mobile.png')}}" class="img-fluid" />
+                    <img alt="Home mobile button" src="{{asset('assets/images/mobile.png')}}" class="img-fluid" />
                 </div>
                 <div class="col-md-7">
                     <h3 data-slideinbottom>NOW <span>WE ARE IN</span></h3>

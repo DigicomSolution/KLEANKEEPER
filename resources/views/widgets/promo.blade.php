@@ -6,12 +6,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 text-center">
-                <img src="{{Key::get('promo-image-image-id')}}" class="img-fluid" />
+                <img alt="Home mobile button promo image" src="{{Key::get('promo-image-image-id')}}" class="img-fluid" />
             </div>
             <div class="col-md-7">
                 <h3 data-slideinbottom>{!! Key::get('promo-title') !!}</h3>
-                <a href="{{Key::get('play-store-link')}}" target="_blank" data-slideinbottom><img src="{{Key::get('play-store-button-image-id')}}" class="img-fluid"  />  </a>
-                <a href="{{Key::get('app-store-link')}}" target="_blank" data-slideinbottom><img src="{{Key::get('app-store-button-image-id')}}" class="img-fluid" />  </a>
+                <a href="{{Key::get('play-store-link')}}" target="_blank" data-slideinbottom><img alt="Home mobile play store button" src="{{Key::get('play-store-button-image-id')}}" class="img-fluid"  />  </a>
+                <a href="{{Key::get('app-store-link')}}" target="_blank" data-slideinbottom><img alt="Home mobile appstore button" src="{{Key::get('app-store-button-image-id')}}" class="img-fluid" />  </a>
 
             </div>
         </div>

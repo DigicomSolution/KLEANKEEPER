@@ -371,11 +371,11 @@ data-parent-service-id="{{$obj->app_service_id}}"
             <div class="row">
                <div class="col-md-7">
                   <h3 data-slideinbottom>NOW <br/><span>WE ARE IN</span></h3>
-                  <a href="https://play.google.com/store/apps/details?id=com.kleankeepers.app&amp;hl=en_IN&amp;gl=US" target="_blank" data-slideinbottom><img src=" {{asset('assets/img/apple.png')}}  " class="img-fluid"  />  </a>
-                  <a href="https://apps.apple.com/gb/app/klean-keepers/id1509700722" target="_blank" data-slideinbottom><img src=" {{asset('assets/img/andro.png')}}  " class="img-fluid" />  </a>
+                  <a href="https://play.google.com/store/apps/details?id=com.kleankeepers.app&amp;hl=en_IN&amp;gl=US" target="_blank" data-slideinbottom><img alt="Home mobile apple icon" src=" {{asset('assets/img/apple.png')}}  " class="img-fluid"  />  </a>
+                  <a href="https://apps.apple.com/gb/app/klean-keepers/id1509700722" target="_blank" data-slideinbottom><img alt="Home mobile android button" src=" {{asset('assets/img/andro.png')}}  " class="img-fluid" />  </a>
                </div>
                <div class="col-md-5 text-center">
-                  <img src="{{asset('assets/img/2376.png')}} " class="img-fluid phone-img" />
+                  <img alt="Home mobile phone" src="{{asset('assets/img/2376.png')}} " class="img-fluid phone-img" />
                </div>
            
             </div>

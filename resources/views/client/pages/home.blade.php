@@ -118,11 +118,11 @@ div.cookies a {
 
                 @if(!empty($obj->media))
 
-                    <img src="{{asset($obj->media->file_path)}}" class="d-block w-100" alt="{{$obj->alt_text}}">
+                    <img src="{{asset($obj->media->file_path)}}" class="d-block w-100" alt="{{$obj->alt_text}} klean image block no slider">
 
                     @else
 
-                    <img src="{{asset('no-slider.jpg')}}" class="d-block w-100" alt="{{$obj->alt_text}}">
+                    <img src="{{asset('no-slider.jpg')}}" class="d-block w-100" alt="{{$obj->alt_text}} klean imabe block no slider">
 
                 @endif
 
@@ -168,8 +168,8 @@ div.cookies a {
              
             <div class="col-md-12">
                
-                <a href="https://play.google.com/store/apps/details?id=com.kleankeepers.app&amp;hl=en_IN&amp;gl=US" target="_blank"   class="visible"><img src="{{asset('/')}}//uploads/media/mobile-btn-2600eb5408e1d9.png" class="img-fluid">  </a>
-                <a href="https://apps.apple.com/gb/app/klean-keepers/id1509700722" target="_blank"  class="visible"><img src="{{asset('/')}}//uploads/media/mobile-btn-1600eb54887426.png" class="img-fluid">  </a>
+                <a href="https://play.google.com/store/apps/details?id=com.kleankeepers.app&amp;hl=en_IN&amp;gl=US" target="_blank"   class="visible"><img alt="klen mobiel banner btn1" src="{{asset('/')}}//uploads/media/mobile-btn-2600eb5408e1d9.png" class="img-fluid">  </a>
+                <a href="https://apps.apple.com/gb/app/klean-keepers/id1509700722" target="_blank"  class="visible"><img alt="Kleen banner mobile btn" src="{{asset('/')}}//uploads/media/mobile-btn-1600eb54887426.png" class="img-fluid">  </a>
 
             </div>
         </div>
