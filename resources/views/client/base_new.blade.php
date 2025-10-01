@@ -33,7 +33,7 @@
     <meta name="robots" content="index,follow" />
     <meta name="google-site-verification" content="ap0g8o3GeFQCKP5HjxWjt9EXZNbbTQ0KGORxhj6K_xw" />
 
-
+<meta name="ahrefs-site-verification" content="7be22f8e42ad2fa338bde8cd7fcb1b4166c5489feddfc15dc9b2c4b5b67a5d72">
     @include('client.include.style')
 
 

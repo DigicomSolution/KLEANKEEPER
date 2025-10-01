@@ -264,7 +264,7 @@
 
                 <div class="col-md-4 text-center" data-slideinleft>
                     <div class="home-work-list count-1">
-                        <img src="{{asset('assets/images/work-1.png')}}" class="img-fluid" />
+                        <img alt="kleenkeepres how it works 1" src="{{asset('assets/images/work-1.png')}}" class="img-fluid" />
                         <h4>Find service required </h4>
                         <p>Enter your postcode to check availability </p>
                     </div>
@@ -272,7 +272,7 @@
 
                 <div class="col-md-4 text-center " data-slideinRight>
                     <div class="home-work-list count-2">
-                        <img src="{{asset('assets/images/work-2.png')}}" class="img-fluid" />
+                        <img alt="kleenkeepres how it works 2" src="{{asset('assets/images/work-2.png')}}" class="img-fluid" />
                         <h4>Customise your service </h4>
                         <p>Get an estimated price by filling a few questions and selecting your desired slot.</p>
                     </div>
@@ -281,7 +281,7 @@
 
                 <div class="col-md-4 text-center " data-slideinleft>
                     <div class="home-work-list count-3">
-                        <img src="{{asset('assets/images/work-3.png')}}" class="img-fluid" />
+                        <img alt="kleenkeepres how it works 3" src="{{asset('assets/images/work-3.png')}}" class="img-fluid" />
                         <h4>Booking Deposit</h4>
                         <p>Confirm your booking by covering the deposit which will be deducted from your final set price. </p>
                     </div>

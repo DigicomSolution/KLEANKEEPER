@@ -490,7 +490,7 @@ data-parent-service-id="{{$obj->app_service_id}}"
                </div>
 
                <div class="col-md-6">
-                  <img src="{{asset('assets/img/hm-work.png')}}   " class="img-fluid" /> 
+                  <img alt="Kleen keepes how it works image" src="{{asset('assets/img/hm-work.png')}}   " class="img-fluid" /> 
                </div>
 
 
