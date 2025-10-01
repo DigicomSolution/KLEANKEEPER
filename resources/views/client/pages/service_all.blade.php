@@ -1,7 +1,12 @@
  @extends('client.base')
-
+@php 
+$description = Key::get('service-meta-description');
+if($description == "service-meta-description"){
+    $description = "Discover KleanKeepers' comprehensive commercial cleaning services in London. Get tailored solutions for offices, schools, and retail spaces. Request a quote!"
+}
+@endphp
  @section('title',Key::get('service-meta-title'))
- @section('description',Key::get('service-meta-description'))
+ @section('description', "Kleen" .)
  @section('keywords',Key::get('service-meta-keywords'))
 
 
