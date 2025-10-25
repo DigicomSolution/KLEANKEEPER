@@ -255,7 +255,7 @@ class PageController extends Controller
             $error_message = "Please fill in all required fields before submitting.";
             return back()->with(["error" => $error_message]);
         } 
-        Mail::to("horphy1@gmail.com")
+        Mail::to(env('LANDING_PAGE_EMAIL'))
                   ->send(new LandingMail([
                     "Submitted_by" => $name,
                     "Email" => $email,
