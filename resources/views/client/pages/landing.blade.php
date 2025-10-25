@@ -1,7 +1,5 @@
 @php
 // --- CONFIGURATION ---
-$to_email = "enquiries@kleankeepers.co.uk";
-$from_email = "noreply@kleankeepers.co.uk";
 $phone_number_display = "+44 20 7978 2004";
 $phone_number_link = "tel:+442079782004";
 // ----------------------
@@ -9,37 +7,6 @@ $phone_number_link = "tel:+442079782004";
 $form_submitted = false;
 $error_message = '';
 
-// if ($_SERVER["REQUEST_METHOD"] == "POST") {
-//     $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
-//     $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-//     $service = filter_input(INPUT_POST, 'service', FILTER_SANITIZE_STRING);
-//     $size = filter_input(INPUT_POST, 'size', FILTER_SANITIZE_STRING);
-//     $phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_STRING);
-
-//     if (empty($name) || !$email || empty($service) || empty($size)) {
-//         $error_message = "Please fill in all required fields before submitting.";
-//     } else {
-//         $subject = "NEW Commercial Cleaning Lead from London PPC";
-//         $message = "A new contract cleaning lead has been captured:\n\n" .
-//                    "Name: $name\n" .
-//                    "Email: $email\n" .
-//                    "Phone: $phone\n" .
-//                    "Service Required: $service\n" .
-//                    "Facility Size: $size\n" .
-//                    "Source: Google Ads PPC Landing Page\n";
-
-//         $headers = "From: $from_email\r\n" .
-//                    "Reply-To: $email\r\n" .
-//                    "X-Mailer: PHP/" . phpversion();
-
-//         if (mail($to_email, $subject, $message, $headers)) {
-//             header("Location: thank-you.html");
-//             exit;
-//         } else {
-//             $error_message = "Sorry, there was an issue. Please call us directly.";
-//         }
-//     }
-// }
 @endphp
 <!DOCTYPE html>
 <html lang="en">

@@ -242,4 +242,18 @@ class PageController extends Controller
         return view('client.pages.landing');
     }
 
+    public function landingPost(Request $request){
+        $name = $request->nme;
+        $email = $request->email;
+        $service = $request->service;
+        $size = $request->size;
+        $phone = $request->phone;
+
+        if (empty($name) || !$email || empty($service) || empty($size)) {
+            $error_message = "Please fill in all required fields before submitting.";
+        } 
+        dd("here");
+        return view('client.pages.landing');
+    }
+    
 }
