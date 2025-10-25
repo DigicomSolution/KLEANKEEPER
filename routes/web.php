@@ -32,6 +32,7 @@ Auth::routes();
 
 
 Route::get('/', 'PageController@home')->name('home');
+Route::get('/landing', 'PageController@landing')->name('landing');
 Route::get('/home-new', 'PageController@home_new')->name('home_new');
 
 Route::get('services', 'PageController@services')->name('services');

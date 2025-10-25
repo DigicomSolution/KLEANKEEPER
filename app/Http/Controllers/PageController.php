@@ -238,4 +238,8 @@ class PageController extends Controller
         return view('client.pages.pricing');
     }
 
+    public function landing(){
+        return view('client.pages.landing');
+    }
+
 }
