@@ -183,7 +183,7 @@
             </div>
         </div>
         
-        <a href="tel:02081234567" class="cta-button">Call Us Now: 020 8123 4567</a>
+        <a href="tel:+442079782004" class="cta-button">Call Us Now: +44 20 7978 2004</a>
         
         <div>
             <a href="/" class="home-link">Return to Homepage</a>
