@@ -265,4 +265,7 @@ class PageController extends Controller
         return redirect("/landing-thank-you");
     }
     
+    public function landingThankyou(Request $request){
+        return view('client.pages.landing_thankyou');
+    }
 }
