@@ -243,7 +243,7 @@ class PageController extends Controller
     }
 
     public function landingPost(Request $request){
-        $name = $request->nme;
+        $name = $request->name;
         $email = $request->email;
         $service = $request->service;
         $size = $request->size;
