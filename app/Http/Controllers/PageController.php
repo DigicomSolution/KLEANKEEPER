@@ -259,6 +259,7 @@ class PageController extends Controller
                   ->send(new LandingMail([
                     "Submitted_by" => $name,
                     "Email" => $email,
+                    "Service" => $service,
                     "Size" => $size,
                     "Phone" => $phone,
                   ]));
