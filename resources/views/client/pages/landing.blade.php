@@ -20,7 +20,7 @@ $error_message = '';
     <meta property="og:title" content="FREE Quote: Specialist Commercial Cleaning in London | Klean Keepers">
     <meta property="og:description" content="Get your free custom quote for London commercial contract cleaning today. Fully vetted & insured teams.">
     <meta property="og:type" content="website">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -359,7 +359,8 @@ $error_message = '';
                         <div class="error-message"><?php echo htmlspecialchars($error_message); ?></div>
                     <?php endif; ?>
                     
-                    <form method="POST" action="">
+                    <form method="POST" action="" id="landingForm">
+                        @csrf
                         <div class="form-group">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" required 
@@ -431,5 +432,11 @@ $error_message = '';
             </div>
         </div>
     </section>
+
+    <script>
+        $("#landingForm").on("submit", function(e){
+            $(".cta-button").prop("disabled", true).text("processing...")
+        })
+    </script>
 </body>
 </html>
