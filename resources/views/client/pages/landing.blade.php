@@ -40,7 +40,7 @@ $error_message = '';
 //         }
 //     }
 // }
-@endphp;
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -350,7 +350,7 @@ $error_message = '';
     <!-- Header -->
     <header class="header">
         <a href="/" class="logo">
-            <img height="80px" src="klean_logo.png" alt="Kleankeepers logo">
+            <img height="80px" src="https://www.kleankeepers.co.uk/uploads/media/logo%20(1)600a74899aac4.png" alt="Kleankeepers logo">
             
         </a>
         <div class="phone-cta">
