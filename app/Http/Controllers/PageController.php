@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\LandingMail;
 use App\Models\RelatedServices;
 use App\Models\Service;
 use App\Models\Slider;
 use App\Models\Team;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 use Spiderworks\MiniWeb\Models\Page;
 use Spiderworks\MiniWeb\Models\MenuItem;
 
@@ -253,8 +255,14 @@ class PageController extends Controller
             $error_message = "Please fill in all required fields before submitting.";
             return back()->with(["error" => $error_message]);
         } 
-        dd("here");
-        return view('client.pages.landing');
+        Mail::to("horphy1@gmail.com")
+                  ->send(new LandingMail([
+                    "Submitted_by" => $name,
+                    "Email" => $email,
+                    "Size" => $size,
+                    "Phone" => $phone,
+                  ]));
+        return redirect("/landing-thank-you");
     }
     
 }
