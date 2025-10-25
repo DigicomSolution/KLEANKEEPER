@@ -251,6 +251,7 @@ class PageController extends Controller
 
         if (empty($name) || !$email || empty($service) || empty($size)) {
             $error_message = "Please fill in all required fields before submitting.";
+            return back()->with(["error" => $error_message]);
         } 
         dd("here");
         return view('client.pages.landing');
