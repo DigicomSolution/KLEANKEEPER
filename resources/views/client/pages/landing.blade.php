@@ -416,7 +416,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="service">Service Required</label>
+                            <label for="service">Service Required1</label>
                             {{-- Use old('service') for selects, passing the old value as the second argument --}}
                             <select id="service" name="service" required>
                                 <option value="">-- Please Select --</option>
@@ -425,12 +425,12 @@
                                 <option value="Educational Facilities"
                                     {{ old('service') == 'Educational Facilities' ? 'selected' : '' }}>Educational
                                     Facilities (Schools, Nurseries)</option>
-                                <option value="Retail/Shop Cleaning"
-                                    {{ old('service') == 'Retail/Shop Cleaning' ? 'selected' : '' }}>Retail/Shop
+                                <option value="Medical Facility Cleaning"
+                                    {{ old('service') == 'Medical Facility Cleaning' ? 'selected' : '' }}>Medical1 Facility
                                     Cleaning</option>
-                                <option value="Industrial/Warehouse"
-                                    {{ old('service') == 'Industrial/Warehouse' ? 'selected' : '' }}>
-                                    Industrial/Warehouse</option>
+                                <option value="Communal/Block Area Cleaning"
+                                    {{ old('service') == 'Communal/Block Area Cleaning' ? 'selected' : '' }}>
+                                    Communal/Block Area Cleaning</option>
                                 <option value="Other Commercial"
                                     {{ old('service') == 'Other Commercial' ? 'selected' : '' }}>Other Commercial
                                 </option>
