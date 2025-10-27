@@ -410,6 +410,12 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="company">Company Name</label>
+                            {{-- Use old('email') to retain the value --}}
+                            <input type="text" id="company" name="company" required value="{{ old('company') }}">
+                        </div>
+
+                        <div class="form-group">
                             <label for="service">Service Required</label>
                             {{-- Use old('service') for selects, passing the old value as the second argument --}}
                             <select id="service" name="service" required>

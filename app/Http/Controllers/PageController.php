@@ -247,11 +247,12 @@ class PageController extends Controller
     public function landingPost(Request $request){
         $name = $request->name;
         $email = $request->email;
+        $company = $request->company;
         $service = $request->service;
         $size = $request->size;
         $phone = $request->phone;
 
-        if (empty($name) || !$email || empty($service) || empty($size)) {
+        if (empty($name) || empty($company)  || !$email || empty($service) || empty($size)) {
             $error_message = "Please fill in all required fields before submitting.";
             return back()->with(["error" => $error_message]);
         } 
@@ -262,6 +263,7 @@ class PageController extends Controller
                     "Service" => $service,
                     "Size" => $size,
                     "Phone" => $phone,
+                    "Company" => $company,
                   ]));
         return redirect("/landing-thank-you");
     }
