@@ -399,6 +399,7 @@
             height: 48px;
             object-fit: contain;
             margin: 0 auto;
+            border-radius : "100%",
             display: block;
         }
 
