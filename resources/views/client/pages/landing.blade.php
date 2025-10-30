@@ -343,6 +343,58 @@
 .alert-danger[role="alert"] {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
+/* Testimonials Section */
+        .testimonials-section { padding: 60px 5%; background-color: #f4f7f9; }
+        .testimonials-section h2 { color: #0056b3; text-align: center; margin-bottom: 40px; font-size: 2em; }
+        .testimonials-container { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 30px; }
+        .testimonial-card {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #ffcc00;
+            position: relative;
+        }
+        .quote-icon {
+            font-size: 3em;
+            color: rgba(255, 204, 0, 0.3);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .testimonial-text {
+            font-style: italic;
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            padding-left: 40px;
+        }
+        .testimonial-author {
+            border-top: 2px solid rgba(255, 204, 0, 0.3);
+            padding-top: 15px;
+            padding-left: 40px;
+        }
+        .testimonial-author .name { font-weight: bold; color: #333; font-size: 1.2em; margin-bottom: 5px; }
+        .testimonial-author .role { color: #777; font-size: 0.95em; }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .hero-section { flex-direction: column; padding: 40px 5%; min-height: auto; }
+            .content-container { max-width: 100%; text-align: center; }
+            h1 { font-size: 2em; }
+            .value-prop { font-size: 1.1em; }
+            .form-container { max-width: 100%; margin-top: 30px; }
+            .trust-badges { justify-content: center; }
+            .benefit-list { flex-direction: column; }
+            .point { text-align: center; border-left: none; border-bottom: 1px dashed #ccc; padding-bottom: 20px; }
+            .testimonial-card { padding: 30px 20px; }
+            .testimonial-text { padding-left: 20px; }
+            .testimonial-author { padding-left: 20px; }
+        }
+
     </style>
 </head>
 
@@ -487,6 +539,52 @@
                 <h3>Eco-Friendly Options</h3>
                 <p>Protect your staff and the environment with our range of sustainable cleaning products.</p>
             </div>
+        </div>
+    </section>
+
+
+    {{-- Testimonial section --}}
+    <section class="testimonials-section">
+        <h2>What Our London Clients Say</h2>
+        <div class="testimonials-container">
+            
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">
+                    As a private healthcare provider, it is imperative that our Clinic has the highest level of cleanliness to ensure we deliver a safe and clean environment for our patients. To help us achieve such high standards, we have been using the services of Klean Keepers who have consistently help us to achieve our goal. Their staff have shown great diligence, punctuality, professionalism and efficiency in providing us with cleaning services both on an ad hoc basis and also more permanently. They have been extremely flexible and accommodating whenever we have requested their services. We do not have any hesitation in recommending Klean Keepers for your cleaning needs.
+                </p>
+                <div class="testimonial-author">
+                    <div class="name">Maralyn Kitchingman</div>
+                    <div class="role">Head Of People, The Harley Street Dermatology Clinic</div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">
+                    I am the Practice Manager for The Harley Street Dermatology Clinic at 35 Devonshire Place.
+We have been working with Klean Keepers and Basil since May 2018. They are responsive
+to our requirements and are completing daily cleaning logs. They have a supervisor, who
+completes cleaning audits for us. They provide all the COSHH data sheets and have been
+reliable. I would recommend them.
+                </p>
+                <div class="testimonial-author">
+                    <div class="name">Sarah Robinson</div>
+                    <div class="role">Practice Manager, The Harley Street Dermatology Clinic</div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="quote-icon">"</div>
+                <p class="testimonial-text">
+                    Finding a reliable cleaning company for our retail stores was challenging until we found Klean Keepers. They understand the importance of presentation in retail and their attention to detail is exceptional. Our stores are always spotless when we open, and their eco-friendly products align perfectly with our company values.
+                </p>
+                <div class="testimonial-author">
+                    <div class="name">Sarah Chen</div>
+                    <div class="role">Operations Director, Retail Chain</div>
+                </div>
+            </div>
+
         </div>
     </section>
 
