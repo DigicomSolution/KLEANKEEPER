@@ -615,7 +615,7 @@
                 </p>
                 <div class="testimonial-author">
                     <div class="name">Maralyn Kitchingman</div>
-                    <div class="role">Head Of People, The Harley Street Dermatology Clinic</div>
+                    <div class="role">Head Of People, 152 Harley Street</div>
                 </div>
             </div>
 
