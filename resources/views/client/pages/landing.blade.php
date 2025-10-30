@@ -393,6 +393,13 @@
             .testimonial-card { padding: 30px 20px; }
             .testimonial-text { padding-left: 20px; }
             .testimonial-author { padding-left: 20px; }
+        }   
+
+        .bics-logo {
+            height: 48px;
+            object-fit: contain;
+            margin: 0 auto;
+            display: block;
         }
 
     </style>
@@ -430,7 +437,12 @@
                 </p>
 
                 <div class="trust-badges">
-                    <div class="badge">✓ Vetted & Trained Staff</div>
+                    <div class="badge">
+                        <div>
+                            ✓ Vetted & Trained Staff
+                        </div>
+                        <img src="bics-logo.png" alt="BICS Membership" class="bics-logo">
+                    </div>
                     <div class="badge">★ 5-Star London Reviews</div>
                     <div class="badge">🛡 Fully Insured & Compliant</div>
                 </div>
