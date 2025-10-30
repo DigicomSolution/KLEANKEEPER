@@ -441,7 +441,7 @@
                         <div>
                             ✓ Vetted & Trained Staff
                         </div>
-                        <img src="bics-logo.png" alt="BICS Membership" class="bics-logo">
+                        <img src="bisc.jpeg" alt="BICS Membership" class="bics-logo">
                     </div>
                     <div class="badge">★ 5-Star London Reviews</div>
                     <div class="badge">🛡 Fully Insured & Compliant</div>
