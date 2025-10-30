@@ -403,6 +403,32 @@
             display: block;
         }
 
+        /* Container for the badge */
+.bics-badge-container {
+    /* Ensures the badge is centered within the 'Why Choose Us' section */
+    display: block; 
+    margin: 20px auto 10px auto; /* 20px top margin, 10px bottom margin */
+    width: 250px; /* Matches the iframe width */
+    height: 120px; /* Matches the iframe height */
+}
+
+/* Styling for the explanatory text */
+.bics-explanation {
+    font-size: 1.1em;
+    color: #444; /* Dark gray for good readability */
+    text-align: center; /* Center the text under the logo */
+    max-width: 600px; /* Optional: Constrain width for readability */
+    margin: 0 auto 30px auto; /* Center the paragraph and add bottom spacing */
+}
+
+/* Optional: If the badge is just one of several logos in a row */
+.logo-strip {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
     </style>
 </head>
 
@@ -553,6 +579,27 @@
                 <p>Protect your staff and the environment with our range of sustainable cleaning products.</p>
             </div>
         </div>
+    </section>
+
+        <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="bics-badge-container">
+    <iframe 
+        frameborder="0" 
+        scrolling="no" 
+        allowTransparency="true" 
+        width="250" 
+        height="120" 
+        src="https://cdn.yoshki.com/badge-bics.html" 
+        title="BICSc Corporate Member Validation Badge"
+        style="border:0px; margin:0px; padding:0px; background-color:transparent;"
+    ></iframe>
+</div>
+
+<p class="bics-explanation">
+    As a **BICSc Corporate Member**, we uphold the highest professional standards and ensure all staff are trained 
+    using the internationally recognized BICSc standards and methodology.
+</p>
     </section>
 
 
