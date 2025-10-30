@@ -573,18 +573,6 @@ reliable. I would recommend them.
                     <div class="role">Practice Manager, The Harley Street Dermatology Clinic</div>
                 </div>
             </div>
-
-            <div class="testimonial-card">
-                <div class="quote-icon">"</div>
-                <p class="testimonial-text">
-                    Finding a reliable cleaning company for our retail stores was challenging until we found Klean Keepers. They understand the importance of presentation in retail and their attention to detail is exceptional. Our stores are always spotless when we open, and their eco-friendly products align perfectly with our company values.
-                </p>
-                <div class="testimonial-author">
-                    <div class="name">Sarah Chen</div>
-                    <div class="role">Operations Director, Retail Chain</div>
-                </div>
-            </div>
-
         </div>
     </section>
 
