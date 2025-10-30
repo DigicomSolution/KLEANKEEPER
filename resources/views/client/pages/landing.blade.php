@@ -468,7 +468,6 @@
                         <div>
                             ✓ Vetted & Trained Staff
                         </div>
-                        <img src="bisc.jpeg" alt="BICS Membership" class="bics-logo">
                     </div>
                     <div class="badge">★ 5-Star London Reviews</div>
                     <div class="badge">🛡 Fully Insured & Compliant</div>
@@ -597,7 +596,7 @@
 </div>
 
 <p class="bics-explanation">
-    As a **BICSc Corporate Member**, we uphold the highest professional standards and ensure all staff are trained 
+    As a BICSc Corporate Member, we uphold the highest professional standards and ensure all staff are trained 
     using the internationally recognized BICSc standards and methodology.
 </p>
     </section>
