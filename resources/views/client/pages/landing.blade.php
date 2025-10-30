@@ -471,6 +471,7 @@
                     </div>
                     <div class="badge">★ 5-Star London Reviews</div>
                     <div class="badge">🛡 Fully Insured & Compliant</div>
+                    <div class="badge">✓ BICCS Corporate Member</div>
                 </div>
             </div>
 
