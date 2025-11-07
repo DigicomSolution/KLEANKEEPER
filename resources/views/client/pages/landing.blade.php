@@ -531,15 +531,23 @@
                         <div class="form-group">
                             <label for="size">Approx. Facility Size (Sq Ft)</label>
                             {{-- Use old('size') for selects --}}
-                            <select id="size" name="size" required>
+                           <select id="size" name="size" required>
                                 <option value="">-- Please Select --</option>
-                                {{-- Note the HTML entity for < is safe here because it's in the value attribute --}}
-                                <option value="<1000" {{ old('size') == '<1000' ? 'selected' : '' }}>&lt; 1,000 Sq Ft
-                                    (Small)</option>
-                                <option value="1000-5000" {{ old('size') == '1000-5000' ? 'selected' : '' }}>1,000 -
-                                    5,000 Sq Ft (Medium)</option>
-                                <option value="5000+" {{ old('size') == '5000+' ? 'selected' : '' }}>5,000+ Sq Ft
-                                    (Large)</option>
+                                
+                                {{-- Option 1: Convert < 1,000 Sq Ft to a reasonable equivalent like < 100 Sq M --}}
+                                <option value="<1000" {{ old('size') == '<1000' ? 'selected' : '' }}>
+                                    &lt; 100 Sq M (Small)
+                                </option>
+                                
+                                {{-- Option 2: Convert 1,000 - 5,000 Sq Ft to a range like 100 - 450 Sq M --}}
+                                <option value="1000-5000" {{ old('size') == '1000-5000' ? 'selected' : '' }}>
+                                    100 - 450 Sq M (Medium)
+                                </option>
+                                
+                                {{-- Option 3: Convert 5,000+ Sq Ft to a reasonable equivalent like 450+ Sq M --}}
+                                <option value="5000+" {{ old('size') == '5000+' ? 'selected' : '' }}>
+                                    450+ Sq M (Large)
+                                </option>
                             </select>
                         </div>
 
