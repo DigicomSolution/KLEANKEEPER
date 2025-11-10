@@ -529,7 +529,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="size">Approx. Facility Size (Sq Ft)</label>
+                            <label for="size">Approx. Facility Size (Sq M)</label>
                             {{-- Use old('size') for selects --}}
                            <select id="size" name="size" required>
                                 <option value="">-- Please Select --</option>
