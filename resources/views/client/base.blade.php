@@ -39,6 +39,13 @@
 <meta name="ahrefs-site-verification" content="7be22f8e42ad2fa338bde8cd7fcb1b4166c5489feddfc15dc9b2c4b5b67a5d72">
 
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-26MX7H2KLL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-26MX7H2KLL');
+    </script>
 
 
 
