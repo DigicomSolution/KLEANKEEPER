@@ -25,6 +25,13 @@
     <link  href="{{asset('miniweb/assets/css/style.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('miniweb/css/styles.css')}}" rel="stylesheet" type="text/css">
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-26MX7H2KLL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-26MX7H2KLL');
+    </script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap" rel="stylesheet">
 
