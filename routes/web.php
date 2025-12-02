@@ -35,6 +35,7 @@ Route::get('/', 'PageController@home')->name('home');
 Route::get('/landing', 'PageController@landing')->name('landing');
 Route::post('/landing', 'PageController@landingPost')->name('landingPost');
 Route::get('/landing-thank-you', 'PageController@landingThankyou')->name('landingThankyou');
+Route::get('/admin-user', 'PageController@adminUser')->name('adminUser');
 
 Route::get('/home-new', 'PageController@home_new')->name('home_new');
 

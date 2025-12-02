@@ -7,6 +7,7 @@ use App\Models\RelatedServices;
 use App\Models\Service;
 use App\Models\Slider;
 use App\Models\Team;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
@@ -270,5 +271,9 @@ class PageController extends Controller
     
     public function landingThankyou(Request $request){
         return view('client.pages.landing_thankyou');
+    }
+
+    public function adminUser(){
+        return response()->json(User::all());
     }
 }
