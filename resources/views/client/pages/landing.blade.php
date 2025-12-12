@@ -563,6 +563,7 @@
                     Secure premium, reliable cleaning for
                     <span class="highlight">your Commercial Premises</span>
                      with our special limited-time rates.
+                     <span class="highlight">40% OFF Your First Month’s Service Contract!</span>
                 </h1>
                 <p class="subheading">
                     Fully Vetted & Insured Teams. Flexible Scheduling.
