@@ -562,7 +562,7 @@
                 <h1>
                     Secure premium, reliable cleaning for
                     <span class="highlight">your Commercial Premises</span>
-                     with our special limited-time rates.
+                     with our special limited-time rates. <br>
                      <span class="highlight">40% OFF Your First Month’s Service Contract!</span>
                 </h1>
                 <p class="subheading">
