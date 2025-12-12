@@ -29,32 +29,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SCGPPE161"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3SCGPPE161"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+  gtag('config', 'G-3SCGPPE161');
+</script>
 
-        gtag('config', 'G-3SCGPPE161');
-    </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK8SWMHYK6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK8SWMHYK6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-ZK8SWMHYK6');
-    </script>
-
+  gtag('config', 'G-ZK8SWMHYK6');
+</script>
+    
     <style>
         * {
             margin: 0;
@@ -349,54 +343,31 @@
         }
 
         .alert-danger {
-            /* Background and Border for visibility */
-            background-color: #f8d7da;
-            /* Very light red/pink background */
-            color: #721c24;
-            /* Dark red text color */
-            border: 1px solid #f5c6cb;
-            /* Slightly darker border */
+    /* Background and Border for visibility */
+    background-color: #f8d7da; /* Very light red/pink background */
+    color: #721c24;           /* Dark red text color */
+    border: 1px solid #f5c6cb; /* Slightly darker border */
+    
+    /* Spacing */
+    padding: 15px;
+    margin-bottom: 20px; /* Space below the alert */
+    
+    /* Aesthetics */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-weight: bold;
+    text-align: center; /* Center the text for prominence */
+}
 
-            /* Spacing */
-            padding: 15px;
-            margin-bottom: 20px;
-            /* Space below the alert */
-
-            /* Aesthetics */
-            border-radius: 4px;
-            /* Slightly rounded corners */
-            font-weight: bold;
-            text-align: center;
-            /* Center the text for prominence */
-        }
-
-        /* Optional: Add a shadow or a slightly stronger box for modern look */
-        .alert-danger[role="alert"] {
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+/* Optional: Add a shadow or a slightly stronger box for modern look */
+.alert-danger[role="alert"] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 
-        /* Testimonials Section */
-        .testimonials-section {
-            padding: 60px 5%;
-            background-color: #f4f7f9;
-        }
-
-        .testimonials-section h2 {
-            color: #0056b3;
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 2em;
-        }
-
-        .testimonials-container {
-            max-width: 900px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
-
+/* Testimonials Section */
+        .testimonials-section { padding: 60px 5%; background-color: #f4f7f9; }
+        .testimonials-section h2 { color: #0056b3; text-align: center; margin-bottom: 40px; font-size: 2em; }
+        .testimonials-container { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 30px; }
         .testimonial-card {
             background-color: #ffffff;
             padding: 40px;
@@ -405,7 +376,6 @@
             border-left: 4px solid #ffcc00;
             position: relative;
         }
-
         .quote-icon {
             font-size: 3em;
             color: rgba(255, 204, 0, 0.3);
@@ -413,7 +383,6 @@
             top: 20px;
             left: 20px;
         }
-
         .testimonial-text {
             font-style: italic;
             color: #555;
@@ -422,119 +391,63 @@
             margin-bottom: 20px;
             padding-left: 40px;
         }
-
         .testimonial-author {
             border-top: 2px solid rgba(255, 204, 0, 0.3);
             padding-top: 15px;
             padding-left: 40px;
         }
-
-        .testimonial-author .name {
-            font-weight: bold;
-            color: #333;
-            font-size: 1.2em;
-            margin-bottom: 5px;
-        }
-
-        .testimonial-author .role {
-            color: #777;
-            font-size: 0.95em;
-        }
+        .testimonial-author .name { font-weight: bold; color: #333; font-size: 1.2em; margin-bottom: 5px; }
+        .testimonial-author .role { color: #777; font-size: 0.95em; }
 
         /* Mobile Responsiveness */
         @media (max-width: 768px) {
-            .hero-section {
-                flex-direction: column;
-                padding: 40px 5%;
-                min-height: auto;
-            }
-
-            .content-container {
-                max-width: 100%;
-                text-align: center;
-            }
-
-            h1 {
-                font-size: 2em;
-            }
-
-            .value-prop {
-                font-size: 1.1em;
-            }
-
-            .form-container {
-                max-width: 100%;
-                margin-top: 30px;
-            }
-
-            .trust-badges {
-                justify-content: center;
-            }
-
-            .benefit-list {
-                flex-direction: column;
-            }
-
-            .point {
-                text-align: center;
-                border-left: none;
-                border-bottom: 1px dashed #ccc;
-                padding-bottom: 20px;
-            }
-
-            .testimonial-card {
-                padding: 30px 20px;
-            }
-
-            .testimonial-text {
-                padding-left: 20px;
-            }
-
-            .testimonial-author {
-                padding-left: 20px;
-            }
-        }
+            .hero-section { flex-direction: column; padding: 40px 5%; min-height: auto; }
+            .content-container { max-width: 100%; text-align: center; }
+            h1 { font-size: 2em; }
+            .value-prop { font-size: 1.1em; }
+            .form-container { max-width: 100%; margin-top: 30px; }
+            .trust-badges { justify-content: center; }
+            .benefit-list { flex-direction: column; }
+            .point { text-align: center; border-left: none; border-bottom: 1px dashed #ccc; padding-bottom: 20px; }
+            .testimonial-card { padding: 30px 20px; }
+            .testimonial-text { padding-left: 20px; }
+            .testimonial-author { padding-left: 20px; }
+        }   
 
         .bics-logo {
             height: 48px;
             object-fit: contain;
             margin: 0 auto;
-            border-radius: "100%";
+            border-radius : "100%";
             display: block;
         }
 
         /* Container for the badge */
-        .bics-badge-container {
-            /* Ensures the badge is centered within the 'Why Choose Us' section */
-            display: block;
-            margin: 20px auto 10px auto;
-            /* 20px top margin, 10px bottom margin */
-            width: 250px;
-            /* Matches the iframe width */
-            height: 120px;
-            /* Matches the iframe height */
-        }
+.bics-badge-container {
+    /* Ensures the badge is centered within the 'Why Choose Us' section */
+    display: block; 
+    margin: 20px auto 10px auto; /* 20px top margin, 10px bottom margin */
+    width: 250px; /* Matches the iframe width */
+    height: 120px; /* Matches the iframe height */
+}
 
-        /* Styling for the explanatory text */
-        .bics-explanation {
-            font-size: 1.1em;
-            color: #444;
-            /* Dark gray for good readability */
-            text-align: center;
-            /* Center the text under the logo */
-            max-width: 600px;
-            /* Optional: Constrain width for readability */
-            margin: 0 auto 30px auto;
-            /* Center the paragraph and add bottom spacing */
-        }
+/* Styling for the explanatory text */
+.bics-explanation {
+    font-size: 1.1em;
+    color: #444; /* Dark gray for good readability */
+    text-align: center; /* Center the text under the logo */
+    max-width: 600px; /* Optional: Constrain width for readability */
+    margin: 0 auto 30px auto; /* Center the paragraph and add bottom spacing */
+}
 
-        /* Optional: If the badge is just one of several logos in a row */
-        .logo-strip {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 20px 0;
-        }
+/* Optional: If the badge is just one of several logos in a row */
+.logo-strip {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
     </style>
 </head>
 
@@ -560,10 +473,9 @@
             <!-- Left: Content -->
             <div class="hero-content">
                 <h1>
-                    Secure premium, reliable cleaning for
                     Get Your Free, Custom Quote for
-                    <span class="highlight">your Commercial Premises</span>
-                     with our special limited-time rates.
+                    <span class="highlight">London Commercial Contract Cleaning</span>
+                    Today.
                 </h1>
                 <p class="subheading">
                     Fully Vetted & Insured Teams. Flexible Scheduling.
@@ -624,8 +536,7 @@
                                     {{ old('service') == 'Educational Facilities' ? 'selected' : '' }}>Educational
                                     Facilities (Schools, Nurseries)</option>
                                 <option value="Medical Facility Cleaning"
-                                    {{ old('service') == 'Medical Facility Cleaning' ? 'selected' : '' }}>Medical
-                                    Facility
+                                    {{ old('service') == 'Medical Facility Cleaning' ? 'selected' : '' }}>Medical Facility
                                     Cleaning</option>
                                 <option value="Communal/Block Area Cleaning"
                                     {{ old('service') == 'Communal/Block Area Cleaning' ? 'selected' : '' }}>
@@ -639,19 +550,19 @@
                         <div class="form-group">
                             <label for="size">Approx. Facility Size (Sq M)</label>
                             {{-- Use old('size') for selects --}}
-                            <select id="size" name="size" required>
+                           <select id="size" name="size" required>
                                 <option value="">-- Please Select --</option>
-
+                                
                                 {{-- Option 1: Convert < 1,000 Sq Ft to a reasonable equivalent like < 100 Sq M --}}
                                 <option value="<1000" {{ old('size') == '<1000' ? 'selected' : '' }}>
                                     &lt; 100 Sq M (Small)
                                 </option>
-
+                                
                                 {{-- Option 2: Convert 1,000 - 5,000 Sq Ft to a range like 100 - 450 Sq M --}}
                                 <option value="1000-5000" {{ old('size') == '1000-5000' ? 'selected' : '' }}>
                                     100 - 450 Sq M (Medium)
                                 </option>
-
+                                
                                 {{-- Option 3: Convert 5,000+ Sq Ft to a reasonable equivalent like 450+ Sq M --}}
                                 <option value="5000+" {{ old('size') == '5000+' ? 'selected' : '' }}>
                                     450+ Sq M (Large)
@@ -697,18 +608,25 @@
         </div>
     </section>
 
-    <!-- Benefits Section -->
+        <!-- Benefits Section -->
     <section class="benefits-section">
         <div class="bics-badge-container">
-            <iframe frameborder="0" scrolling="no" allowTransparency="true" width="250" height="120"
-                src="https://cdn.yoshki.com/badge-bics.html" title="BICSc Corporate Member Validation Badge"
-                style="border:0px; margin:0px; padding:0px; background-color:transparent;"></iframe>
-        </div>
+    <iframe 
+        frameborder="0" 
+        scrolling="no" 
+        allowTransparency="true" 
+        width="250" 
+        height="120" 
+        src="https://cdn.yoshki.com/badge-bics.html" 
+        title="BICSc Corporate Member Validation Badge"
+        style="border:0px; margin:0px; padding:0px; background-color:transparent;"
+    ></iframe>
+</div>
 
-        <p class="bics-explanation">
-            As a BICSc Corporate Member, we uphold the highest professional standards and ensure all staff are trained
-            using the internationally recognized BICSc standards and methodology.
-        </p>
+<p class="bics-explanation">
+    As a BICSc Corporate Member, we uphold the highest professional standards and ensure all staff are trained 
+    using the internationally recognized BICSc standards and methodology.
+</p>
     </section>
 
 
@@ -716,17 +634,11 @@
     <section class="testimonials-section">
         <h2>What Our London Clients Say</h2>
         <div class="testimonials-container">
-
+            
             <div class="testimonial-card">
                 <div class="quote-icon">"</div>
                 <p class="testimonial-text">
-                    As a private healthcare provider, it is imperative that our Clinic has the highest level of
-                    cleanliness to ensure we deliver a safe and clean environment for our patients. To help us achieve
-                    such high standards, we have been using the services of Klean Keepers who have consistently help us
-                    to achieve our goal. Their staff have shown great diligence, punctuality, professionalism and
-                    efficiency in providing us with cleaning services both on an ad hoc basis and also more permanently.
-                    They have been extremely flexible and accommodating whenever we have requested their services. We do
-                    not have any hesitation in recommending Klean Keepers for your cleaning needs.
+                    As a private healthcare provider, it is imperative that our Clinic has the highest level of cleanliness to ensure we deliver a safe and clean environment for our patients. To help us achieve such high standards, we have been using the services of Klean Keepers who have consistently help us to achieve our goal. Their staff have shown great diligence, punctuality, professionalism and efficiency in providing us with cleaning services both on an ad hoc basis and also more permanently. They have been extremely flexible and accommodating whenever we have requested their services. We do not have any hesitation in recommending Klean Keepers for your cleaning needs.
                 </p>
                 <div class="testimonial-author">
                     <div class="name">Maralyn Kitchingman</div>
@@ -738,10 +650,10 @@
                 <div class="quote-icon">"</div>
                 <p class="testimonial-text">
                     I am the Practice Manager for The Harley Street Dermatology Clinic at 35 Devonshire Place.
-                    We have been working with Klean Keepers and Basil since May 2018. They are responsive
-                    to our requirements and are completing daily cleaning logs. They have a supervisor, who
-                    completes cleaning audits for us. They provide all the COSHH data sheets and have been
-                    reliable. I would recommend them.
+We have been working with Klean Keepers and Basil since May 2018. They are responsive
+to our requirements and are completing daily cleaning logs. They have a supervisor, who
+completes cleaning audits for us. They provide all the COSHH data sheets and have been
+reliable. I would recommend them.
                 </p>
                 <div class="testimonial-author">
                     <div class="name">Sarah Robinson</div>
