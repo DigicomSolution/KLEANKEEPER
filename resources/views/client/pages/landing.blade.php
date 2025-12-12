@@ -14,9 +14,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FREE Quote: Specialist Commercial Cleaning in London | Klean Keepers</title>
+    <title>40% OFF Your First Month’s Service Contract! | Klean Keepers</title>
     <meta name="description"
-        content="Get your free custom quote for London commercial contract cleaning today. Fully vetted & insured teams. Flexible scheduling. Increase staff productivity & hygiene.">
+        content="40% OFF Your First Month’s Service Contract! Secure premium, reliable cleaning for your commercial premises with our special limited-time rates.">
     <meta name="author" content="Klean Keepers">
 
     <meta property="og:title" content="FREE Quote: Specialist Commercial Cleaning in London | Klean Keepers">
