@@ -561,7 +561,6 @@
             <div class="hero-content">
                 <h1>
                     Secure premium, reliable cleaning for
-                    Get Your Free, Custom Quote for
                     <span class="highlight">your Commercial Premises</span>
                      with our special limited-time rates.
                 </h1>
